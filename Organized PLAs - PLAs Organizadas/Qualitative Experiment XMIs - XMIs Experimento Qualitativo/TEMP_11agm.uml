@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:concerns="http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:patterns="http:///schemas/patterns/_wlXX8JVoEeOWwNcokQBARg/3" xmlns:relationships="http:///schemas/relationships/_ZXR5gI9OEeO5S8PTmh49hw/2" xmlns:smarty="http:///schemas/smarty/_cl6_wI9OEeO5S8PTmh49hw/3" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="20110701" xsi:schemaLocation="http:///schemas/patterns/_wlXX8JVoEeOWwNcokQBARg/3 resources/patterns.profile.uml#_wlbCUJVoEeOWwNcokQBARg http:///schemas/concerns/_SsrrUBWgEeObs-pQrJ2skQ/19 resources/concerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ http:///schemas/relationships/_ZXR5gI9OEeO5S8PTmh49hw/2 resources/relationships.profile.uml#_ZXU80I9OEeO5S8PTmh49hw http:///schemas/smarty/_cl6_wI9OEeO5S8PTmh49hw/3 resources/smarty.profile.uml#_cl7m0I9OEeO5S8PTmh49hw http:///schemas/perfilConcerns/_SsrrUBWgEeObs-pQrJ2skQ/19 resources/concerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ ">
+  <uml:Model name="model" xmi:id="_xqzHwIzdEeO6Yt6TRR4QNg">
+    <profileApplication xmi:id="_2Q2s4I9OEeO5xq3Ur4qgFw">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_2RHyoI9OEeO5xq3Ur4qgFw">
+        <references href="resources/concerns.profile.uml#_SsrrURWgEeObs-pQrJ2skQ" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/concerns.profile.uml#_9v_84HqaEeK1gM_kVgXLQw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_2RXDMI9OEeO5xq3Ur4qgFw">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_2RlssI9OEeO5xq3Ur4qgFw">
+        <references href="resources/relationships.profile.uml#_ZXU80I9OEeO5S8PTmh49hw" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/relationships.profile.uml#__hjjkIzaEeO6Yt6TRR4QNg"/>
+    </profileApplication>
+    <profileApplication xmi:id="_2RlssY9OEeO5xq3Ur4qgFw">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_2R2ycI9OEeO5xq3Ur4qgFw">
+        <references href="resources/smarty.profile.uml#_cl7m0I9OEeO5S8PTmh49hw" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/smarty.profile.uml#_9ppH0MeqEeK-FvYCaEYIKA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_cyBBIJJmEeOENZsdUoZvrw">
+      <eAnnotations source="http://www.eclipse.org/uml2/2.0.0/UML" xmi:id="_cyb34JJmEeOENZsdUoZvrw">
+        <references href="resources/patterns.profile.uml#_wlbCUJVoEeOWwNcokQBARg" xmi:type="ecore:EPackage"/>
+      </eAnnotations>
+      <appliedProfile href="resources/patterns.profile.uml#_lDDfsJJlEeOENZsdUoZvrw"/>
+    </profileApplication>
+  <packagedElement name="GameBoardGUI" xmi:id="_2g84MBVZEeODAq4Tm5H6GQ" xmi:type="uml:Package">
+      <packagedElement clientDependency="3fed2796-67ff-48ac-b7b3-c43465121a7e" isAbstract="false" name="GameBoardGUI" xmi:id="_-7olgBVZEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="checkScore" visibility="public" xmi:id="_mjiW4GEtEeSFBoEbqUktNw"/>
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_lJ-i8GEtEeSFBoEbqUktNw"/>
+        <ownedAttribute isUnique="false" name="Attr4" visibility="public" xmi:id="1859f5b9-9b60-48c1-b578-011e3d1df982">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="c8fafd7e-c5f6-4b86-a0c8-c66e18bcaaf3" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="c3b4dd93-97ac-407e-a237-1e400e655f53" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="ca90f0f4-ddaa-4fca-a1cc-f576cf4f2598" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="GameBoardCtrl" xmi:id="_nqr-4BSmEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement isAbstract="false" name="Velocity" xmi:id="_oqHsgBSvEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="isHeadingDown" visibility="public" xmi:id="_-_tjkBSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="isHeadingRight" visibility="public" xmi:id="_BMx4EBSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="isHeadingUp" visibility="public" xmi:id="_8l07EBSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="isHeadingLeft" visibility="public" xmi:id="_ABl3UBSyEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="dy" visibility="public" xmi:id="2e59df77-348a-4796-bb1b-14e86e1c5635">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="f2216ee9-083f-46ba-9623-6abeb0935f54" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="4acc3027-648f-4b43-9216-3619d5bb53c0" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="5f06a31d-1d82-4535-836f-c7ffb7836b09" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="speed" visibility="public" xmi:id="b545f7de-70a8-47a0-82b6-a0ef4383a3c4">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="a106db62-485d-4e22-820c-cd002bc8eda4" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="ac98894c-4c1a-4a9d-9c17-bbda9865b9ab" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="a6b6a612-947a-40a4-95a9-78ed8bc07da2" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="dx" visibility="public" xmi:id="9ccc1f40-5804-428a-88b2-f7da98363582">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="69770e38-3269-46ac-a7e5-79fef2569923" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="8a2d0925-9e9a-4d11-b2fd-a25f1f90abf6" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="feff3665-acda-4cd3-8362-c49e8b4df3f1" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="direction" visibility="public" xmi:id="bd958bcb-6ce6-4697-b5fc-9d3c83da14b4">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="93cff084-bfcb-475a-81f5-a554d1ca7930" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="7ffee4b0-c38c-44ad-acb0-1623d055166f" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="275155c8-83bc-4014-a4c6-e33eda30aa9b" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="GameBoard" xmi:id="_xScE0BS9EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="setScore" visibility="public" xmi:id="_xHoREBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="removeStationaryPiece" visibility="public" xmi:id="_SIYVMBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="buildGameBoard" visibility="public" xmi:id="_0YAnQBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="StartMovement" visibility="public" xmi:id="_xcdRkBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="run" visibility="public" xmi:id="_7MaTQBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="handleTick" visibility="public" xmi:id="_n0Qy0BTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setMenu" visibility="public" xmi:id="_8Pyb0BTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="tick" visibility="public" xmi:id="_ySjMEBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setSpeed" visibility="public" xmi:id="_xzzakBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="initializeCollisionList" visibility="public" xmi:id="_0qZXwBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getMenu" visibility="public" xmi:id="_927_0BTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_5_41wBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="checkForCollision" visibility="public" xmi:id="_SeS60BTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="exitGame" visibility="public" xmi:id="_xS_zkBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="resetList" visibility="public" xmi:id="_SUcbQBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getScore" visibility="public" xmi:id="_w6yu8BS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="stopMovement" visibility="public" xmi:id="_xoIWEBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="removeMovablePiece" visibility="public" xmi:id="_ymKroBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="alreadyCollision" visibility="public" xmi:id="_0h7YQBTAEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getSpeed" visibility="public" xmi:id="_x-zwsBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="addMovabalePiece" visibility="public" xmi:id="_ybpdsBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getGameOver" visibility="public" xmi:id="_yJpuwBS_EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="addStationaryPiece" visibility="public" xmi:id="_R4EBQBTAEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="collisionList" visibility="private" xmi:id="68cfcf34-a48a-4943-88c5-3a52ad50ca9b">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="20012e38-80f5-430e-aa5a-c83d31d78f83" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="af727c7f-0fc0-44ea-bea0-6d6effb0cf4b" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="923c632c-e338-4515-899b-d3d6dcb17f0c" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="movableComponents" visibility="private" xmi:id="bdf0dbb3-c66a-409e-b3f5-1d14479ce4e3">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="449d20ee-012a-47ab-8900-6d010e364cad" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="16328275-62b5-4130-be80-5af5c62d118e" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="c39b9b3c-1305-4242-86dc-704649c02268" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="image" visibility="private" xmi:id="2e58d760-40f8-44ee-a18a-a0699b229814">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="f91d2637-c01f-4088-a005-bf72b78a643f" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="9434d018-80fd-4aed-9309-8629b973b40d" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="a8c5359e-6561-4167-865e-6a41121a1d83" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="display" type="" visibility="private" xmi:id="6cab55d3-5cdf-4bba-8161-d49c330553dd">
+          <lowerValue value="1" xmi:id="b789e431-7383-4590-9735-03c58203772f" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="31d2c3a9-e7b4-4985-a68a-075b825fecb2" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="5ff01e6b-cbbe-491d-b220-ee36c0018461" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="stationaryComponents" visibility="private" xmi:id="c9961a86-b3cf-4cb2-bf8c-4b1cfbff365b">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="fd7e86ed-9bad-417d-bf72-50be3de6c11d" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="2690c585-b999-4831-8a0c-c6b5c0a239ae" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="63886e1a-0ac3-4918-8684-af3c88a54869" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="speed" visibility="private" xmi:id="c975db89-32c8-4663-bcbd-5349e86030e2">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="c0ad021d-caca-42ee-893c-dfa28d5a72e3" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="cb6bf6fb-2304-4ae2-983b-002cc6ba4c12" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="be6a1c2d-a6e1-4ac4-a056-1811b98d6db2" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="menu" visibility="private" xmi:id="44232bd0-8c9f-43b3-b9e2-2a3c3c105fe1">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="a12647cf-1b3c-45fd-94c6-9052206d5e31" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="0b3fbd3e-9fc9-44d4-ae78-31bc3d23a0a4" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="033b24bf-9c7a-4c26-90b2-b38598623343" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="moving" visibility="private" xmi:id="565ccf3e-b241-4e71-a4f0-68c9ceca5afc">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="840de0a3-d161-4ed0-b632-7eb12b3f85aa" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="4574deac-51f2-4329-80b8-d4f8aeb3035c" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="5f395043-bba2-44f6-89ee-32deb8eeddaf" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="score" visibility="private" xmi:id="e6733d81-da9f-43d1-9dcd-3c41e9ae2ed7">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="dc3bdd13-ea05-4eb3-b593-71f2fd7327e6" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="e7a4b492-15bd-497b-9a1e-60406f9396a8" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="4f5954df-4001-4014-b928-3aa1fcfcedf2" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="gameOver" visibility="private" xmi:id="510ada31-f4f0-4d4e-816d-f340a4b6fddb">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="69760953-55d5-4678-9dd7-2ee762b34794" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="fa2557a7-3f8b-4652-b39b-7585af687526" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="e336eb7e-c80f-481b-82a2-9c1425cb3fcb" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Wall" xmi:id="_8CTh0BSyEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_CYfAwBSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_CCx2gBSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="absorb" visibility="public" xmi:id="_BHpD8BSzEeOYorUb5NKqTw"/>
+        <generalization general="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="c399f4a8-74e0-44dc-b86c-a598c7082145"/>
+      </packagedElement>
+      <packagedElement clientDependency="15ad8baa-a914-4456-8dc5-bb2bbad15523" isAbstract="false" name="GameBoardCtrl" xmi:id="_HCoXQBVZEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedAttribute isUnique="false" name="attr10" visibility="public" xmi:id="20b6b3cb-e816-4177-8a18-46ddfcffaafc">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="b81fd8f2-569e-442d-b6fc-59ad523c4fa0" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="37d11ae6-d526-47b0-83d7-223adc67de88" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="44eaf3a3-5818-4974-838f-5b99fe8c0021" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="ICheckScore" xmi:id="_M10d4BVZEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="showRankingScores" visibility="public" xmi:id="_MhY9oBVnEeODAq4Tm5H6GQ"/>
+        <ownedOperation isAbstract="false" name="hasScore" visibility="public" xmi:id="_56sIQBVmEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="bc267ae7-4c4a-4fab-9d8e-5cc519b962dd"/>
+          <ownedParameter direction="return" name="" xmi:id="9f92fea0-2a4f-4eba-9938-5447cdc03ed4">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getGameBoard" visibility="public" xmi:id="_H00hABWMEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="9d8185b9-e1fc-4c93-bec6-43831eea2374">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getGame" visibility="public" xmi:id="_az2zIBVmEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="codeGame" xmi:id="ae7ef719-891b-4100-a1eb-5a250cde0b90">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter direction="return" name="" xmi:id="d8df3be5-6fdc-4980-b6d4-8a0d5250a135">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Game" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="showScore" visibility="public" xmi:id="_HiZUEBVnEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="fefc5946-54ba-4931-a4f0-3ef255cfb039"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Floor" xmi:id="_PMm-EBS0EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="collideWidth" visibility="public" xmi:id="_UgPa4BS0EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="absorb" visibility="public" xmi:id="_WP2-YBS0EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_VdaNwBS0EeOYorUb5NKqTw"/>
+        <generalization general="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="37eac6d1-33f0-4720-8102-7565885607c9"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Score" xmi:id="_bSsdwBTCEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="incScore" visibility="public" xmi:id="_xLsxYBTCEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="updateScoreRanking" visibility="public" xmi:id="_xamwEBTCEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="resetScore" visibility="public" xmi:id="_w9TJABTCEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="scoreRankingPong" visibility="public" xmi:id="2d6a5d89-714d-4bd4-9e45-a04008474359">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="02f080fc-c28a-4f89-8900-6eb20e8e4cb4" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="eebedcd3-2ef5-40d5-9537-7399c9c1ee70" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="6bc3f170-d03c-4598-907f-d59d9f34be36" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="scoreRankingBrickles" visibility="public" xmi:id="85ac2fdf-3b9d-46cd-8778-669eb462e6b8">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="36c5ca46-d068-49fa-acd1-bd0ff88ca25e" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="4bb3bdd2-64b2-426a-9488-f1d460be1908" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="cd9dbabf-8448-4061-8ba8-9492993c45a1" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="scoreRankingBowling" visibility="public" xmi:id="a789dd17-417a-498a-af05-82aa3858fe2f">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="132c4203-b46e-4d66-9124-fe5ad1f455ab" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="3bde1cd3-7a59-499f-b778-42678d7ae01d" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="3ea29cfa-195f-4d44-996e-7c830daaba43" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="score" visibility="public" xmi:id="0a504b57-793c-4ce6-ba9c-d9f19b3ad2a3">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="608c671f-0110-4006-b115-5b757cf413c6" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="85603872-0d58-450f-aee1-7d24f29f3cd8" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="15928f52-7741-440f-99e8-b6b08d65d6fb" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="MovableSprites" xmi:id="_Uo_ggBSvEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="move" visibility="public" xmi:id="_JjWW4BSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="stopMoving" visibility="public" xmi:id="_Ujj8ABSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_Od168BSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_HXI-ABSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="startMoving" visibility="public" xmi:id="_S7IloBSxEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="moving" visibility="public" xmi:id="_YJTJEBSwEeOYorUb5NKqTw">
+          <ownedParameter direction="return" name="" xmi:id="ce03241a-c022-47eb-9d86-f5807295db24">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setDirection" visibility="public" xmi:id="_LRf6wBSxEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="isMoving" visibility="private" xmi:id="5b2a2967-0be9-4aae-b9a4-aa46963341fe">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="56f92133-9cf6-4ea1-a249-3913aaea05f5" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="84e73876-5d51-451c-8c90-055c04a08af7" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="40cbb470-5a2c-47dd-ab28-d74e97ac3bb4" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="currentVelocity" type="_oqHsgBSvEeOYorUb5NKqTw" visibility="private" xmi:id="ca4fcd86-f30e-4510-a4c7-6682cdc38f86">
+          <lowerValue value="1" xmi:id="33386c2d-b56b-48c9-bb9f-837e3e7f23a5" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="bab02795-d15f-45b9-a279-6bb983ec8105" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="c4a7fb23-29ad-4ea0-9375-376e778d0ce9" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastPosition" type="" visibility="private" xmi:id="296d6982-0fc9-43b7-8b44-b308bea2fdb0">
+          <lowerValue value="1" xmi:id="dbfe9309-7061-4f91-a314-880a2f5fdf0b" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="0b37cfa0-a9b4-46b4-a729-c709f11df9f7" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="04a9ec73-449c-46e7-bd52-d4b1cbdf4d0e" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="4ae7b67c-b085-48f5-be43-cf6919960469"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Sprit" xmi:id="_Ru2b4BS1EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="overLaps" visibility="public" xmi:id="_mPYgsBS1EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="true" name="collideWith" visibility="public" xmi:id="_l3eXABS1EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="true" name="paint" visibility="public" xmi:id="_mD_JABS1EeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="name" visibility="private" xmi:id="d8822088-53f9-4a2a-9543-00f249a0a750">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="e4d940ac-d23c-45e4-ba38-bd476e3f319a" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="10de24dc-27d4-4c91-8a9b-91016215b5fa" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="cf3b0792-7796-4ef4-af5e-9a65f268acc1" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="localization" type="" visibility="private" xmi:id="c0b7bb70-60ef-43c5-b261-9b71083fd694">
+          <lowerValue value="1" xmi:id="254f9be0-2a44-4a5b-86c1-2f5e34455c5d" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="528d7259-a5dc-40b1-9f8d-40ce60e6103e" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="6e884173-4eeb-4825-9e86-6c5e249452cd" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="icon" visibility="private" xmi:id="feed4065-815e-41bc-9b95-68fd250791bc">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="b98dbdb6-4034-46b0-af54-0fac65bbe653" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="b9796b16-e11b-47d8-bca7-5860c6e580f7" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="0232f45d-7c07-428c-8a65-557b5e24003f" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Ceiling" xmi:id="_AMfYYBS1EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_EJMegBS1EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_D7TzgBS1EeOYorUb5NKqTw"/>
+        <generalization general="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="edc3a490-d373-442b-96b4-4b3a9b98b4a2"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Paddle" xmi:id="_IXCC0BSzEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_NKwQgBSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setSaveData" visibility="public" xmi:id="_wCUvgBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="moveLeft" visibility="public" xmi:id="_O_8QgBSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_T2r9ABSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="moveRight" visibility="public" xmi:id="_P77-sBSzEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getSaveData" visibility="public" xmi:id="_U4DTYBSzEeOYorUb5NKqTw"/>
+        <generalization general="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="2154ed76-9c68-460e-9a39-8954e408c9a7"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Player" xmi:id="_NJM_EBS4EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="setHeigherScore" visibility="public" xmi:id="_omALEBS7EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="heigherScore" xmi:id="a9490ebc-11f8-47bd-8907-91a620ce1968">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="4747e851-266f-45fb-8311-cd24cb00ed29"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkPassword" visibility="public" xmi:id="_oYkzEBS7EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="password" xmi:id="6ffa39a3-3105-48e4-bd6c-5f0ec1a30e79">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter direction="return" name="" xmi:id="60791c14-24ed-4c91-ab74-406042b431a0">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="updateLastTimeSaved" visibility="public" xmi:id="_o7-bEBS7EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="de4bab65-a6c1-4606-9d9d-9b918378e300"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="updateLastTimePlayed" visibility="public" xmi:id="_oy7MwBS7EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="b96bb962-8e41-4a64-aac6-1ba838c67122"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="updateDateScore" visibility="public" xmi:id="_UTBIIBS9EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="502eb7f4-5b5e-4a52-ae53-2977ed94140c"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkLogin" visibility="public" xmi:id="_oFxL0BS7EeOYorUb5NKqTw">
+          <ownedParameter isUnique="false" name="login" xmi:id="3c18397f-7631-4748-b6af-253eed429e2b">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter direction="return" name="" xmi:id="879685aa-202e-4820-b70d-2802acbcaf77">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedAttribute isUnique="false" name="heigherScoreBrickles" visibility="private" xmi:id="68a01e54-5b00-4f6a-9e9a-3d984c6f5e35">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="777b64de-fc1c-442f-80ce-0c620803f6e5" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="0c4c0138-71c4-4177-a275-8ead8b4a2352" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="a5ea78c6-1eee-4748-8c4f-aad4160b23ec" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastTimePlayedBowling" visibility="private" xmi:id="0991d0de-017f-4904-bc6d-32780fc8342d">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="0ea0e4b6-9b8e-42b3-9313-4b8a84f96bb0" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="867c2ae6-07af-42e3-84d8-f7ca1cf769fb" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="1a2553f5-404f-4f2f-8ad8-68ab739ac6bc" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastTimeSavedBrickles" visibility="private" xmi:id="6e094290-f4a7-4f47-8652-51143b05e50f">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="f6fb0ba2-4e10-4ffc-93f8-7e62ea3aa643" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="b38efc4f-1684-43fd-9769-a82bd44cdbec" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="cb11b4c6-d89c-4641-a7ba-d9cab3ce1eb0" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="password" visibility="private" xmi:id="749edc71-26de-4e4e-a782-7a4cf07e6724">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="3f3467fc-08a8-4cfb-90ad-1225f1c4eaec" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="8bf86979-ef79-49d5-acf8-a143a19807c2" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="b866bdbf-ad8f-47f3-9568-28633848d360" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="name" visibility="private" xmi:id="1f8a7e14-1365-4a9d-9bff-82207069819d">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="fc28c128-bc08-43ec-b4d8-aa550b4ed997" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="3ffd3a08-1a35-4569-adcd-da1d4de15860" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="7636ef8c-87e7-4cf9-9fe2-221b9e3f2c9f" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="login" visibility="private" xmi:id="7799c484-6239-4979-b97e-b4e854ffa643">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="3fd51c8c-0474-41db-b357-a2e206b8a19d" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="25887dcd-a2a9-4ff8-9655-e63a004924a4" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="452b1b46-894a-426c-bd8d-4ed53b7db716" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="dateBowlingScore" visibility="private" xmi:id="a6369346-9729-484c-8202-44116f05c572">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="7a08d3d8-78d4-4746-8252-585e5bebb69a" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="dc2d9db8-d7ad-4808-9719-3f9bb79ba5b1" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="ecd9e3c5-e8da-482c-8b61-1b8bf2bf7029" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="heigherScoreBowling" visibility="private" xmi:id="23e57d15-cb83-4561-aa13-d703bd4cdfb0">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="f09b93e4-6952-45ca-af9c-8284f9a5bf0c" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="574eb818-a466-4581-8592-d79e2c52fe92" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="61f26de7-f1ef-4a43-a4b4-778f495ed08a" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="heigherScorePong" visibility="private" xmi:id="43c01d76-3146-4de4-8a0b-6a343509ba4a">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="b66a6d7d-ab44-424c-9fdd-cf3d7c41fbe1" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="2877c4a6-c5ee-4f8d-9782-407377a74efb" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="efba63f6-4711-47fd-9a7d-3374db0bc1de" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="datePongScore" visibility="private" xmi:id="442989de-b1ae-4e3c-8d38-adf0abf0e0dc">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="2d7ed3e6-74f5-49f6-a9f6-b010545d6d67" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="e8104dd1-0f8c-43f3-908a-559e18e3f8af" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="9eb6b588-64f0-46c9-9570-dd370d4cc89f" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastTimePlayedBrickles" visibility="private" xmi:id="0db7a40c-9ac2-4f4c-9a2a-875f7843f185">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="826daffe-7380-435b-8638-5d4798e6cdde" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="fa0c9eb8-c8cb-4331-8094-c2475b2bcd12" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="063a7272-052a-4756-9728-84084924e9ee" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastTimePlayedPong" visibility="private" xmi:id="a5f308b0-ae71-4782-900d-760c46c51c00">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="d7a5eb3f-3724-4c16-ae1c-c530949d2dcb" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="44cd2204-6617-4a63-bcfa-280ad13b50fa" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="88a2e8f3-e04e-46c7-a50f-1e693ec53466" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="lastTimeSavedPong" visibility="private" xmi:id="ab44acf9-9611-4e1f-b517-e5fb4e8dc72d">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="777883d3-b97f-40a7-9490-fca690313e98" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="f9422ca8-6b15-4589-9080-0facb70c3b23" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="f031ef3e-ec83-42f7-a6ef-f152fc770388" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="BrickPile" xmi:id="_5CPtUBS2EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="setSaveData" visibility="public" xmi:id="_sbUMkBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getBoundingBox" visibility="public" xmi:id="_dD4IgBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paintBricks" visibility="public" xmi:id="_dRFeEBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_deDjEBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_dpldoBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getSaveData" visibility="public" xmi:id="_d0GrkBS3EeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="numLeft" visibility="private" xmi:id="a40b31af-e502-47e6-9293-385922bafdbd">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="ba21e218-2ee5-4cd8-8ada-dc574d27ce68" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="e75138ca-2e72-4ee1-a256-0f808d9d8eb1" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="483cd47e-42e4-4e43-9368-139aa25313e4" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="numRows" visibility="private" xmi:id="d3e205fa-38af-4fd2-9bb9-010318c72142">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="ce80dea3-9b02-4c46-a2a0-f7d1c653a435" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="b8e72905-6704-4fb5-b4f3-d23eab1fe700" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="1367a6aa-b244-402d-bd52-0b1eae83b4ec" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="" type="_7YIxMBS3EeOYorUb5NKqTw" visibility="public" xmi:id="29f0ed2f-15c8-47e0-a521-59a616b6cfe8">
+          <lowerValue value="1" xmi:id="bb185bf8-74e4-46cf-8d98-fb9e9659cad4" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="441c60e7-0390-47c2-99fb-cb092af1f201" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="d48cc48b-8e21-45f9-8727-8eed4914696e" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="numberOfBricks" visibility="private" xmi:id="8b19db96-d548-40ae-8d7a-d4116e37dcff">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="81098082-5507-4745-9704-96e8adc9ae05" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="4bac4235-d0a1-4bbe-b6ff-8091211b0950" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="0d7baa0e-02bb-4de4-8b44-195212f51689" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="pile" visibility="private" xmi:id="05b83d37-22c2-490a-81a4-5f96cb6db53f">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="ebf6b572-d6de-4563-b919-4d4171404cff" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="6f10fbaa-6926-4dbc-b59c-0c63f3718321" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="3176d716-a7f6-452f-a111-411c2a604c92" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="numOfBricksPerRow" visibility="private" xmi:id="6b0a761c-895c-4bd8-866f-47daf1de96c9">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="3ceaaa0e-bc06-4b01-bcdf-9a4e27b23fae" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="6f12454f-9583-4203-8da4-08634375b873" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="9038b8c7-c63e-4cb3-86cf-649e1f560ead" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="c45c7774-1fca-4d5b-bbaa-309d2cdd6874"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Brick" xmi:id="_7YIxMBS3EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="getSaveData" visibility="public" xmi:id="_BaPdkBS4EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_A3_FEBS4EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setSaveData" visibility="public" xmi:id="_BmrXEBS4EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="hitbyPuck" visibility="public" xmi:id="_BC0cEBS4EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="die" visibility="public" xmi:id="_BPLdEBS4EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_Atly8BS4EeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="isBroken" visibility="private" xmi:id="0a687a1c-92dd-406b-95a7-0bcd602001ce">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="e782be38-9f46-45dc-8a8e-66dfd9fe3dbb" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="d4ecd6dc-5ef8-40a3-bd4d-00a9a6a8fa3e" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="8f5daa21-b020-4d10-9341-c1f2d7c7297f" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="c1758d97-7592-4aab-a7d4-6b5f4191022a"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Match" xmi:id="_lD5HgBTBEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="getPartialScore" visibility="public" xmi:id="_sBPUIBTBEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="endMatch" visibility="public" xmi:id="_rtJ6gBTBEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getFinalScore" visibility="public" xmi:id="_Eg79MBTCEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="startMatch" visibility="public" xmi:id="_re5cEBTBEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setPartialScore" visibility="public" xmi:id="_EyJB8BTCEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setFinalScore" visibility="public" xmi:id="_K_6LwBTCEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="numberOfMatches" visibility="private" xmi:id="a2205ab9-24ad-42ec-90f0-82cedc1e6bc1">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="aa2f5df1-adde-41ba-8758-92d9ee220add" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="cad76262-ccfd-4d94-ae34-61a840bde81c" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="a3eaa3f1-bd1f-4dbc-8895-7171a8c62ffe" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="StationarySprite" xmi:id="_fFmg8BS9EeOYorUb5NKqTw" xmi:type="uml:Class">
+        <generalization general="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="98c3ccf8-6fea-4928-aaf7-9b805a119384"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Puck" xmi:id="_L2zx0BSyEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="setDirection" visibility="public" xmi:id="_qLM9YBSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getSaveData" visibility="public" xmi:id="_sElg4BSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="collideWith" visibility="public" xmi:id="_i9dkUBSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="move" visibility="public" xmi:id="_muGkYBSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="setSaveData" visibility="public" xmi:id="_uImNwBS3EeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="paint" visibility="public" xmi:id="_ntK0sBSyEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="delete" visibility="public" xmi:id="_lC608BSyEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="puckDimension" visibility="private" xmi:id="892f249f-3a47-4197-9a22-4eb22e24e70f">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="dd3b2b52-d85a-4489-8153-37c01e5da503" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="13c5fdd6-a432-46c3-93ef-887878687659" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="c2cf2b5a-aa3b-4e42-aecf-dead03c0c622" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="isDead" visibility="private" xmi:id="9f2213e2-46a3-4cec-a4df-d8cf6c4341b9">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="6a54daf3-fe3d-496d-b606-d265346645a5" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="a537599e-0f55-42a9-8de1-911641f05f9d" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="72526739-d8f6-42b2-a9c6-f1c3a87cb777" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="c46ed510-1c09-4f8f-aed1-a26359f6a342"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="ISaveScore" xmi:id="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_91CwEBWJEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="game" type="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="d140cfca-8ec8-4a5b-8a14-44ae178eeb53"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setDateRanking" visibility="public" xmi:id="_-cGwEBWJEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="login" xmi:id="9ac659d2-fe82-4e2e-88e2-b1384985d63e">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="b05dbbd9-9fe9-41a7-8d22-161c22c0f90c"/>
+          <ownedParameter isUnique="false" name="" xmi:id="1ca3cef9-a00b-42d3-b285-14c41c2b3fb6">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="isGamePlayed" visibility="public" xmi:id="_9liUcBWJEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="9c5001bf-5fd0-4681-9e46-e69179ee2fe1"/>
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="b3eb053e-d24b-4cea-bd42-bfa91f92c149"/>
+          <ownedParameter isUnique="false" name="" xmi:id="a707e35f-04a6-4802-9771-1187a8f1fe40">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="saveingInRanking" visibility="public" xmi:id="_-OX2EBWJEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="login" xmi:id="36e44605-c772-4a9c-9e36-a1e2bc018f42">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="61c80c85-546c-469f-ad04-704fe4d7c827"/>
+          <ownedParameter isUnique="false" name="" xmi:id="c2aec359-c469-42bc-8317-fd7a339b84f0">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="isARankingScore" visibility="public" xmi:id="_-BssABWJEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="score" type="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="87ba8063-f929-4bd1-9ad1-a054e4945417"/>
+          <ownedParameter direction="return" name="" xmi:id="f95001aa-8cb4-4043-81fe-0b38b1bee832">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getScore" visibility="public" xmi:id="_7x3XYBWJEeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="d57caef8-1079-4d6c-9db2-b998505b2396">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Score" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <ownedComment annotatedElement="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="c85eb0f8-1764-49eb-b8c3-8f3c9c2c0099">
+        <body/>
+      </ownedComment>
+      <ownedComment annotatedElement="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="83640d7c-d1f2-4792-957c-c1b21dbdaa09">
+        <body/>
+      </ownedComment>
+      <ownedComment annotatedElement="_NJM_EBS4EeOYorUb5NKqTw" xmi:id="ccb57d0e-a84c-4838-a9a6-4d805a22b9be">
+        <body/>
+      </ownedComment>
+      <ownedComment annotatedElement="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="3417786c-45d4-488d-9e93-f2537a9f8615">
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement name="GameMgr" xmi:id="_hOsL0BSmEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement isAbstract="false" name="BowlingGame" xmi:id="_KbxQ0BSqEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="loadGame" visibility="public" xmi:id="_z0OmwBSqEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_pS25wBSqEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="viewTopScores" visibility="public" xmi:id="_BTWeUBSrEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_3TMA8BSqEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="gameCode" visibility="private" xmi:id="6e16decd-83e0-4b59-838b-49c3b10d75c6">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="8f438c77-98b1-4c02-ac82-2e43c75c7c65" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="90701d1e-9ce7-4ad3-ab1c-5e1184a43e7a" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="8787769c-a975-4a10-838f-3c25b1c3999f" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="numberOfTruns" visibility="private" xmi:id="435340da-57f4-4509-9b1e-85494d5348f0">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="1116278a-5510-4698-9110-e5da1c95b419" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="f3cbadea-4ca1-4793-8196-4a86008f1ab2" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="70a01aee-76f0-4a15-b687-5f88e5676dc7" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_prZDoBSsEeOYorUb5NKqTw" xmi:id="dc4170cd-7a9f-437e-b58a-6eb78f0491ac"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="Game" xmi:id="_prZDoBSsEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_bCHQoBStEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="getGame" visibility="public" xmi:id="_ZsHHABStEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="viewTopScores" visibility="public" xmi:id="_Wd9I8BStEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="exitGame" visibility="public" xmi:id="_UVfnoBStEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="loadGame" visibility="public" xmi:id="_KegUYBStEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_JB2JIBStEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="gameCode" visibility="private" xmi:id="91151dde-44fe-4b25-83f1-c5b921858238">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="43e96a24-88b8-4af3-a9e2-49694ee3bbcf" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="7f666be8-cc2b-4280-b356-8fbd01a95476" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="f57ca2c2-78e5-4c6b-859c-a2e2fdb6633c" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IGameMgt" xmi:id="_R38k4BViEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="getGame" visibility="public" xmi:id="_4-ZNYBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="codeGame" xmi:id="7ec2f232-a3cc-41aa-8228-ad6d2e387ba9">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter direction="return" name="" xmi:id="75fdefb7-02c8-4d87-9bf9-84460ceb4e7e">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Game" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="play" visibility="public" xmi:id="_5M0q8BWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="codeGame" xmi:id="0b473710-358d-45a4-ac66-6893fd1fb425">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="d492588e-6007-4f58-b413-384cd1577c81"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="addGame" visibility="public" xmi:id="_4bTucBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="8d6db7ac-6610-4b7f-9516-f0b82747b71e">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="uninstall" visibility="public" xmi:id="_pcB2QBWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="5456bd01-09d7-45c8-93b1-2fb66e86ca8d">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="remGame" visibility="public" xmi:id="_4ud7ABWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="4eb55d35-de13-4d98-900f-4c778ea8def1">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_aA0sgBWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="96062362-f92f-4dfd-915a-ccc17c853334"/>
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="eb892157-2df5-4057-b098-8117da98e0ff"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkInstallation" visibility="public" xmi:id="_pNd10BWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="89cb52bc-9fca-4327-99bf-4135807a2840">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter direction="return" name="" xmi:id="98fa1213-5e64-4cfb-b7dc-4e1f244dff1b">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="install" visibility="public" xmi:id="_ps4VsBWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="c2a35b82-013b-479c-9bde-547757aaf41b">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="loadGame" visibility="public" xmi:id="_cXIckBWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="7aabefcb-ee67-4843-80c5-5cf901277cd7"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="exit" visibility="public" xmi:id="_WGchoBWOEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="530cfdc2-2e28-49d4-a581-5ea2d2f691e0">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement clientDependency="041a7232-6b48-472e-a321-52d86e2bea02" isAbstract="false" name="GameMgr" xmi:id="_P2tF4BViEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedAttribute isUnique="false" name="attr7" visibility="public" xmi:id="89d3cb20-62b7-4c82-98fd-7ac6c3229a1f">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="49cb69ef-7bd9-4eef-ab2f-060d00260091" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="691f8b34-ac0e-4ddf-a672-0df9990f75d4" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="0becbda4-33f7-4711-b1d9-57107fe1dbfe" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="BricklesGame" xmi:id="_AfsXUBSsEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="viewTopScores" visibility="public" xmi:id="_UzQ-MBSsEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="loadGame" visibility="public" xmi:id="_USo9YBSsEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_TsduMBSsEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_UjKssBSsEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="numbersOfBalls" visibility="private" xmi:id="f11052b6-bb53-4407-a80e-34eea937ca3c">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="0188bebe-a7a5-4041-b24c-e401e6e51c82" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="d03aacf3-cf09-441f-bae3-a7a7cbffd57d" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="abb5a729-d019-4ef4-80e7-ea7909ccbfb2" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="gameCode" visibility="private" xmi:id="9bb2e244-0998-48e5-940c-2e73ae2ff4ba">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="bd6a3d18-2c9e-453d-969e-06049a47ae8d" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="e5433d8d-9840-479e-99e9-c09b30eb6b3d" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="e5a4c919-62db-4f27-845d-604e69c66c29" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_prZDoBSsEeOYorUb5NKqTw" xmi:id="21dc14db-01c6-48d8-8e6d-e24cf75a9692"/>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="PongGame" xmi:id="_IFYy0BSrEeOYorUb5NKqTw" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="loadGame" visibility="public" xmi:id="_ll0x4BSrEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="viewTopScores" visibility="public" xmi:id="_mTl20BSrEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_lQnW4BSrEeOYorUb5NKqTw"/>
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_mAcRUBSrEeOYorUb5NKqTw"/>
+        <ownedAttribute isUnique="false" name="gameCode" visibility="private" xmi:id="d2c0c9b1-dfcc-4e1b-9cfd-31687e34eada">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="d7ac2d59-4394-4d03-a885-bb4251553b04" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="c6825f6b-4e39-43f7-8246-d51ae71648af" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="cdc85797-8aea-4878-9fa1-13c336ed47ad" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="numberOfSets" visibility="private" xmi:id="741f9c05-554f-4675-ada0-7ed3f5c023b0">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="9c6188bb-7d75-4fc2-9852-15fbf71bbdb3" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="cda33c73-a3ce-4550-9bc2-c34332cd160f" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="4ffd6c0a-6af1-4a00-879f-63e8fe456a2d" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute isUnique="false" name="setPoints" visibility="private" xmi:id="95857691-bfd1-4312-a062-95000b4091ac">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="fdda1cff-6f3c-418c-8b8b-0ae10600f573" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="00dac27e-6816-45c5-bfba-1d2dde02fb67" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="3dc81fae-1254-4445-8e1a-3470ced0f5f0" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+        <generalization general="_prZDoBSsEeOYorUb5NKqTw" xmi:id="59c62092-ba51-42c6-8088-904946c71968"/>
+      </packagedElement>
+      <ownedComment annotatedElement="_prZDoBSsEeOYorUb5NKqTw" xmi:id="5188130c-531d-49f7-bc49-3de43db57708">
+        <body/>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement name="GameBoardMgr" xmi:id="_2zMPEBSmEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement clientDependency="ef7c049d-77fe-414f-a93c-8939fd663787" isAbstract="false" name="GameBoardMgr" xmi:id="_JmvLYBVcEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedAttribute isUnique="false" name="attr5" visibility="public" xmi:id="24d1eb84-b277-45fa-b5db-1f18733a0e53">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="ffb75a9c-10a5-48e5-9915-46d397f16dca" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="af343df6-2cd1-4b27-8eaa-6005f90636e7" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="58920190-a3dd-4a6a-a6a9-fa4b2f265c59" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IGameBoardMgt" xmi:id="_0bg44BVdEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="getSprite" visibility="public" xmi:id="_vCv44BVnEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="sprite" type="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="6e376c78-2ced-4f95-8f22-f7dc3f0f41f4"/>
+          <ownedParameter isUnique="false" name="" type="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="8816065c-4891-422b-a76c-49efea46bbdf"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="remSprite" visibility="public" xmi:id="_uu2sgBVnEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="" type="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="133291bd-3c80-4f2f-9435-4aebc3109a06"/>
+          <ownedParameter direction="return" name="" xmi:id="9b82db74-f0e0-4e54-b3f4-278c9364e2ac">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setPartialScore" visibility="public" xmi:id="_wkfYoBWMEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="score" type="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="34e6cf48-2a9e-4d5b-814c-853b1f8efe69"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setFinalScore" visibility="public" xmi:id="_RGtGoBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="1631a185-45b1-42fd-80e7-4167ca8485a8"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setGameBoard" visibility="public" xmi:id="_uFK2UBVnEeODAq4Tm5H6GQ">
+          <ownedParameter direction="return" name="" xmi:id="85a64dc7-8a86-43ec-8954-6d24f12e661a">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#GameBoard" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getLocation" visibility="public" xmi:id="_vS2xcBVnEeODAq4Tm5H6GQ">
+          <ownedParameter isUnique="false" name="sprite" type="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="7f139817-68b9-4c55-878c-ba7c3c2cdb17"/>
+          <ownedParameter direction="return" name="" xmi:id="409a226f-8b54-4001-8b58-54aba09ffeeb">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Point" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="saveScore" visibility="public" xmi:id="_YNaqoBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="score" type="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="fcb4db7e-4bfa-47c8-9b14-84b9de9a5983"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="startGameBoard" visibility="public" xmi:id="_vm0PQBVnEeODAq4Tm5H6GQ"/>
+        <ownedOperation isAbstract="false" name="showScore" visibility="public" xmi:id="_eFFooBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="50a1e0e1-c2e8-4e32-a602-fb3ece61b80c"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getFinalScore" visibility="public" xmi:id="_DPjwoBWNEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="fe64a366-3349-4e23-9ac4-4a8484f8b71c"/>
+          <ownedParameter direction="return" name="" xmi:id="94e725ce-f328-4757-b7de-10410f7bd9dc">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Score" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="endMatch" visibility="public" xmi:id="_v3Op0BVnEeODAq4Tm5H6GQ"/>
+        <ownedOperation isAbstract="false" name="addSprite" visibility="public" xmi:id="_uZvYIBVnEeODAq4Tm5H6GQ">
+          <ownedParameter direction="return" name="" xmi:id="a306ca17-b08c-4205-a4e4-04caf38538b5">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="getPartialScore" visibility="public" xmi:id="_1qBvEBWMEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="cec5f7e0-8775-4246-be7d-f0b0b267c7af"/>
+          <ownedParameter direction="return" name="" xmi:id="247e5783-c980-4c73-9de6-5014c36a5ed6">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Score" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="GameCtrl" xmi:id="_tZi_IBSmEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement isAbstract="false" name="IPlayPong" xmi:id="_-VLTYBViEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="play" visibility="public" xmi:id="_UkIS8BWREeObs-pQrJ2skQ"/>
+        <ownedOperation isAbstract="false" name="setDatePlayed" visibility="public" xmi:id="_U-X-8BWREeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="1d38fd89-7197-4005-9f92-088e1df60110">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkInstallation" visibility="public" xmi:id="_TrNG4BWREeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="20ad6580-3dc7-4852-818b-c146a9a8cb16">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="ISaveGame" xmi:id="_McPUsBVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="saveGame" visibility="public" xmi:id="_shkHABWSEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="0fe0fc23-5270-4a74-8bf9-be659b8d7e47"/>
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="e9960f7c-3ee1-4e04-b25b-cdff5d3785b7"/>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkMatch" visibility="public" xmi:id="_sUIvABWSEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="eb3a683a-efb6-42ca-830b-a818ab9d7d5c"/>
+          <ownedParameter direction="return" name="" xmi:id="95ded7bf-5670-453c-a53a-4d6c3f9cecfc">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkGameBoard" visibility="public" xmi:id="_sEty8BWSEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="a88ebf1b-6249-4f10-b1a8-3db1d07ddd41"/>
+          <ownedParameter direction="return" name="" xmi:id="7c2c131d-c5ed-4c66-acb0-88b1ba085782">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement clientDependency="82834f50-8c72-4405-9801-ec48934de5fa" isAbstract="false" name="GameCtrl" xmi:id="_R-qtYBVhEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedAttribute isUnique="false" name="nameAttr1" visibility="public" xmi:id="bbc5a325-ec92-43bd-8a66-44e6b7b6c785">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="53f07132-37df-45b7-919a-fda765fbde06" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="7dd0fce3-cad5-4349-b226-d7989a58651e" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="4d513e71-93e1-49a0-aefd-4ae555f2dde6" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IInstallGame" xmi:id="_CacfoBVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="install" visibility="public" xmi:id="_NXCFABWPEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="1cc2cf21-4d1c-4fa0-b5e3-31fd876aa60f">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="checkGame" visibility="public" xmi:id="_NFzLEBWPEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="55300d38-5e48-47bb-8f4c-a87ed5a952d2">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="" xmi:id="eaf9cd20-3e1c-4549-9cf2-6efcf22eed87">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IUninstallgame" xmi:id="_Gzx3YBVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="checkGame" visibility="public" xmi:id="_dbUA8BWPEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="84d1cab7-5bcd-449a-a953-bf9a734b9f65">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+          <ownedParameter isUnique="false" name="" xmi:id="533c98e9-de72-499c-9134-f40f92081e8e">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="uninstall" visibility="public" xmi:id="_dr9FABWPEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="355c10fd-e76c-4c04-8880-5e5077c2fca8">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IPlayBrickles" xmi:id="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="play" visibility="public" xmi:id="_1YqgABWREeObs-pQrJ2skQ"/>
+        <ownedOperation isAbstract="false" name="checkinstallation" visibility="public" xmi:id="_1IWMEBWREeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="fa8e692c-d329-4d99-b513-31c8eed714ab">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="setDatePlayed" visibility="public" xmi:id="_1lmIwBWREeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="8844b928-2f78-4997-8e4c-63367701137c">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IExitGame" xmi:id="_Lda8ABVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="exit" visibility="public" xmi:id="_RTYB8BWTEeObs-pQrJ2skQ"/>
+        <ownedOperation isAbstract="false" name="checkGameBoard" visibility="public" xmi:id="_Rnl-cBWTEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="32f7273e-4dc9-4fa3-94b6-92954968f228"/>
+          <ownedParameter direction="return" name="" xmi:id="bbed8ec7-9616-45a1-b893-a9d402b6177c">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="IPlayBowling" xmi:id="_82VhYBVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="checkInstallation" visibility="public" xmi:id="_aUKicBWSEeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="11a88d08-ce54-4e9b-b0f5-14cbe86e00c4">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="play" visibility="public" xmi:id="_aiq4gBWSEeObs-pQrJ2skQ"/>
+        <ownedOperation isAbstract="false" name="setDatePlayed" visibility="public" xmi:id="_azEsABWSEeObs-pQrJ2skQ">
+          <ownedParameter direction="return" name="" xmi:id="fe5f34ea-b943-4509-af89-ed0c13ec81c7">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="PlayGameGUI" xmi:id="_pVLO4BVjEeODAq4Tm5H6GQ" xmi:type="uml:Package">
+      <packagedElement clientDependency="7d6f1403-78a5-48da-a3d9-a633813595c1" isAbstract="false" name="PlayGameGUI" xmi:id="_sEps4BVjEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="exit" visibility="public" xmi:id="_vPsOsGEtEeSFBoEbqUktNw"/>
+        <ownedOperation isAbstract="false" name="config" visibility="public" xmi:id="_2sFHwGEtEeSFBoEbqUktNw"/>
+        <ownedOperation isAbstract="false" name="play" visibility="public" xmi:id="_1Ts_kGEtEeSFBoEbqUktNw"/>
+        <ownedAttribute isUnique="false" name="attr6" visibility="public" xmi:id="f867b544-4de8-47ea-adfa-32c90b733a6a">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="ad511a40-d347-4333-a4ee-f0772deaf10a" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="fcebcc24-c354-400e-9981-2affbfbe162f" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="d61a35f8-4b2b-4faa-a3c3-de9a61e2653b" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="GameGUI" xmi:id="_IqVT4BVkEeODAq4Tm5H6GQ" xmi:type="uml:Package">
+      <packagedElement clientDependency="f3534692-ac25-4cac-8f59-e2b1c6c41139" isAbstract="false" name="GameGUI" xmi:id="_KFWgYBVkEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="install" visibility="public" xmi:id="_FhsRIGEuEeSFBoEbqUktNw"/>
+        <ownedOperation isAbstract="false" name="save" visibility="public" xmi:id="_I9Y78GEuEeSFBoEbqUktNw"/>
+        <ownedOperation isAbstract="false" name="exit" visibility="public" xmi:id="_LH5rsGEuEeSFBoEbqUktNw"/>
+        <ownedAttribute isUnique="false" name="att8" visibility="public" xmi:id="abce673d-48f0-4ee0-b9fe-c544befb8cbf">
+          <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#" xmi:type="uml:PrimitiveType"/>
+          <lowerValue value="1" xmi:id="19c18bf1-fa59-4778-aea0-94305f258f14" xmi:type="uml:LiteralInteger"/>
+          <upperValue value="1" xmi:id="d5b4bb9d-ce0f-4201-b6e3-ebb2b781b04a" xmi:type="uml:LiteralUnlimitedNatural"/>
+          <defaultValue xmi:id="295c7507-7591-4f3c-9a57-119022548ec8" xmi:type="uml:LiteralString">
+            <value xmi:nil="true"/>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="InitializeMgr" xmi:id="_CbqHABSnEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement clientDependency="8edbf72e-8738-4cbb-b1cf-4eabacb77fd3" isAbstract="false" name="InitializeMgr" xmi:id="_T739wBVdEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="initialize" visibility="public" xmi:id="_fbl-ABWMEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="2339aa4c-b6b7-42d7-ad8a-df22545d6252">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement isAbstract="false" name="InitializationMgt" xmi:id="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="initialize" visibility="public" xmi:id="_SmmBgBWMEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="055ff8cd-cecb-4c65-a13e-7615591fbcfd">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement name="AnimationLoopMgr" xmi:id="_-c0S4BSmEeOYorUb5NKqTw" xmi:type="uml:Package">
+      <packagedElement isAbstract="false" name="IAnimationLoopMgt" xmi:id="_EIAcYBVdEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="stopAnimation" visibility="public" xmi:id="_pwfREBWTEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="f72ea033-adef-4030-9484-24ae03cd1b0c">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="startAnimation" visibility="public" xmi:id="_pkzlgBWTEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="gameCode" xmi:id="4aa17c5b-0df1-4731-ac82-ce0212b9ca6e">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement clientDependency="801ea62b-3a26-46d6-9c42-8c7ea2205ce3" isAbstract="false" name="AnimationLoppMgr" xmi:id="_4kumcBVcEeODAq4Tm5H6GQ" xmi:type="uml:Class">
+        <ownedOperation isAbstract="false" name="startAnimation" visibility="public" xmi:id="_9eXw8BWTEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="codeGame" xmi:id="320831fa-919e-43a2-aeee-32aa3affb772">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation isAbstract="false" name="stopAnimation" visibility="public" xmi:id="_9rfm8BWTEeObs-pQrJ2skQ">
+          <ownedParameter isUnique="false" name="codeGame" xmi:id="7b08812f-8230-4953-82f4-53063280abba">
+            <type href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer" xmi:type="uml:PrimitiveType"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement memberEnd="e02b7511-18ac-47d0-b682-6058ed125703 5d29441e-d26a-4789-9187-9ca2d9cee452" name="" xmi:id="3c3b0bb0-f615-4dfb-bca4-66e81672671b" xmi:type="uml:Association">
+      <ownedEnd association="3c3b0bb0-f615-4dfb-bca4-66e81672671b" name="Brick" type="_7YIxMBS3EeOYorUb5NKqTw" xmi:id="e02b7511-18ac-47d0-b682-6058ed125703">
+        <lowerValue value="1" xmi:id="98cd5666-0307-455a-80df-37c4bf9371c2" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="f02c75d5-01bf-4a2f-9841-536568a9226c" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="3c3b0bb0-f615-4dfb-bca4-66e81672671b" name="Player" type="_NJM_EBS4EeOYorUb5NKqTw" xmi:id="5d29441e-d26a-4789-9187-9ca2d9cee452">
+        <lowerValue value="1" xmi:id="4762afcc-abb1-422f-8c2c-9171a1236fbe" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="f7d17c03-13af-4fb3-9b1a-d0c11595f158" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="678563bc-f022-4f31-b269-904d4db52e57 aedb481e-97b6-4fe0-845d-c52c039de1de" name="game_gameMgr_1" xmi:id="06cfd521-ea00-4307-892f-525ca909c08f" xmi:type="uml:Association">
+      <ownedEnd association="06cfd521-ea00-4307-892f-525ca909c08f" name="Game" type="_prZDoBSsEeOYorUb5NKqTw" xmi:id="678563bc-f022-4f31-b269-904d4db52e57">
+        <lowerValue value="1" xmi:id="bf09178f-2591-4d81-95da-288a4bff5319" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="46dff5bf-adcf-4f3e-9f64-65beb7393212" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="06cfd521-ea00-4307-892f-525ca909c08f" name="GameMgr" type="_P2tF4BViEeODAq4Tm5H6GQ" xmi:id="aedb481e-97b6-4fe0-845d-c52c039de1de">
+        <lowerValue value="1" xmi:id="e7f332f9-bf71-4d85-aa81-f8f8ad6eef2d" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="a83bff4b-838f-42e0-8f19-62b1eab31ae2" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="4f62e88c-4a9d-43e7-ac2a-04646836e5cf e590e0ad-72eb-489a-81b0-0276c17228fc" name="" xmi:id="079f4804-d99c-4501-8cad-9fb138e66c01" xmi:type="uml:Association">
+      <ownedEnd association="079f4804-d99c-4501-8cad-9fb138e66c01" name="Score" type="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="4f62e88c-4a9d-43e7-ac2a-04646836e5cf">
+        <lowerValue value="1" xmi:id="94cfac6e-25cf-4ff4-866d-eecb4c5848a7" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="d9de1f21-8042-42a9-858e-2305f24751c7" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="079f4804-d99c-4501-8cad-9fb138e66c01" name="Player" type="_NJM_EBS4EeOYorUb5NKqTw" xmi:id="e590e0ad-72eb-489a-81b0-0276c17228fc">
+        <lowerValue value="1" xmi:id="c0e756b4-6ccc-4ead-abd4-74d7c76de797" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="0ddc806f-a294-49b6-93f9-fe27f23fa908" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="91b26edc-e163-4a81-b637-d518ccfda014 c313708d-1527-4005-ba8a-bb0588eb6381" name="" navigableOwnedEnd="c313708d-1527-4005-ba8a-bb0588eb6381" xmi:id="42db2032-3d3a-4c7a-9393-a8e1fa193b39" xmi:type="uml:Association">
+      <ownedEnd association="42db2032-3d3a-4c7a-9393-a8e1fa193b39" name="MovableSprites" type="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="91b26edc-e163-4a81-b637-d518ccfda014">
+        <lowerValue value="1" xmi:id="ca75974d-e5d8-4e55-85ec-4cdd26f505ee" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="bfeff66a-dbba-462f-aa10-dc4f54bced10" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="42db2032-3d3a-4c7a-9393-a8e1fa193b39" name="Velocity" type="_oqHsgBSvEeOYorUb5NKqTw" xmi:id="c313708d-1527-4005-ba8a-bb0588eb6381">
+        <lowerValue value="1" xmi:id="a41af6a8-f954-4c83-9308-cfe9665567f1" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="*" xmi:id="349175aa-faca-4b2c-8285-e349c1012546" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="550a589e-9067-4daf-bca0-8038efe1655f 727c1b88-9e12-434b-90b9-39e5bb05c2b9" name="" xmi:id="62683ca3-ffe7-4adf-afc1-2a2f4d8c19b8" xmi:type="uml:Association">
+      <ownedEnd aggregation="composite" association="62683ca3-ffe7-4adf-afc1-2a2f4d8c19b8" name="Sprit" type="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="550a589e-9067-4daf-bca0-8038efe1655f">
+        <lowerValue value="1" xmi:id="2c4cd3fe-2430-4c8a-aa12-a4e8c7f44b88" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="da010e1e-e377-4c9e-abf6-3268c8e8d39f" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="62683ca3-ffe7-4adf-afc1-2a2f4d8c19b8" name="GameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="727c1b88-9e12-434b-90b9-39e5bb05c2b9">
+        <lowerValue value="1" xmi:id="d3d2ff61-0f1d-4daa-9d31-30732ba3c9d0" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="10f43f13-03d3-47e9-98af-618becf67de9" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="dd7de877-fe8b-43a0-9d6d-990c3fde6554 c884a56b-e31c-4c08-8e79-fbc7fe242dd6" name="" navigableOwnedEnd="dd7de877-fe8b-43a0-9d6d-990c3fde6554" xmi:id="47926817-e71e-4e51-ae8f-f09edaea9f45" xmi:type="uml:Association">
+      <ownedEnd aggregation="composite" association="47926817-e71e-4e51-ae8f-f09edaea9f45" name="Brick" type="_7YIxMBS3EeOYorUb5NKqTw" xmi:id="dd7de877-fe8b-43a0-9d6d-990c3fde6554">
+        <lowerValue value="1" xmi:id="c1988c57-1983-42d2-beb2-43f9bc647f4a" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="36e43b00-bcd9-4dfa-ae1e-9039128d2bbf" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="47926817-e71e-4e51-ae8f-f09edaea9f45" name="BrickPile" type="_5CPtUBS2EeOYorUb5NKqTw" xmi:id="c884a56b-e31c-4c08-8e79-fbc7fe242dd6">
+        <lowerValue value="1" xmi:id="9dc03210-f11b-4ccd-a638-ecfc947c4dde" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="74d687c8-2843-4e95-b387-5b832fb4e854" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement memberEnd="ac3dfd62-3508-4283-b9a8-c898f7ac629b 21869746-abe7-4933-89be-0645ebb37a0d" name="" xmi:id="160c525b-318c-4591-b198-85b7233a53f9" xmi:type="uml:Association">
+      <ownedEnd aggregation="shared" association="160c525b-318c-4591-b198-85b7233a53f9" name="Match" type="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="ac3dfd62-3508-4283-b9a8-c898f7ac629b">
+        <lowerValue value="1" xmi:id="cb44bb2e-7725-4bec-bf17-75592f213a23" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="dc96841f-a721-4cfd-b6c4-272ecaef5ebd" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+      <ownedEnd association="160c525b-318c-4591-b198-85b7233a53f9" name="GameBoard" type="_xScE0BS9EeOYorUb5NKqTw" xmi:id="21869746-abe7-4933-89be-0645ebb37a0d">
+        <lowerValue value="1" xmi:id="b13de322-c57c-43e8-bda5-4a45a44a263d" xmi:type="uml:LiteralInteger"/>
+        <upperValue value="1" xmi:id="b46d374b-a985-4df3-b28d-ac9a6bc989f9" xmi:type="uml:LiteralUnlimitedNatural"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement client="_-7olgBVZEeODAq4Tm5H6GQ" name="Dependency1" supplier="_M10d4BVZEeODAq4Tm5H6GQ" xmi:id="cedb128c-16e9-4255-956d-6a81ccd74608" xmi:type="uml:Dependency"/>
+    <packagedElement client="_-7olgBVZEeODAq4Tm5H6GQ" name="Dependency2" supplier="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:id="3fed2796-67ff-48ac-b7b3-c43465121a7e" xmi:type="uml:Dependency"/>
+    <packagedElement client="_sEps4BVjEeODAq4Tm5H6GQ" name="Dependency1" supplier="_82VhYBVjEeODAq4Tm5H6GQ" xmi:id="3b9bb5b6-c9cf-42e1-85d0-1b4b950d5636" xmi:type="uml:Dependency"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Dependency3" supplier="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="554ed1e2-e30a-4a61-8bda-68eda1ba63d6" xmi:type="uml:Dependency"/>
+    <packagedElement client="_sEps4BVjEeODAq4Tm5H6GQ" name="Dependency2" supplier="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:id="7540b44f-3f23-4676-8860-a50fbd5d7e52" xmi:type="uml:Dependency"/>
+    <packagedElement client="_KFWgYBVkEeODAq4Tm5H6GQ" name="Dependency2" supplier="_Gzx3YBVjEeODAq4Tm5H6GQ" xmi:id="95b9a3f4-3515-4abd-948a-48f720b2e96d" xmi:type="uml:Dependency"/>
+    <packagedElement client="_KFWgYBVkEeODAq4Tm5H6GQ" name="Dependency3" supplier="_Lda8ABVjEeODAq4Tm5H6GQ" xmi:id="2674e58a-4233-4421-89b3-fef9378f6d88" xmi:type="uml:Dependency"/>
+    <packagedElement client="_JmvLYBVcEeODAq4Tm5H6GQ" name="Dependency1" supplier="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:id="e4c2f191-a22a-48d7-9cec-c471a58006e0" xmi:type="uml:Dependency"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Dependency1" supplier="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:id="85b4533e-d09e-4fb3-ad01-dcc7e971798a" xmi:type="uml:Dependency"/>
+    <packagedElement client="_4kumcBVcEeODAq4Tm5H6GQ" name="Dependency1" supplier="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:id="30557462-ed94-429e-8723-9c15c73c21b5" xmi:type="uml:Dependency"/>
+    <packagedElement client="_KFWgYBVkEeODAq4Tm5H6GQ" name="Dependency1" supplier="_CacfoBVjEeODAq4Tm5H6GQ" xmi:id="e62c75b7-98d1-4314-a6ee-86b9b4d79fdc" xmi:type="uml:Dependency"/>
+    <packagedElement client="_sEps4BVjEeODAq4Tm5H6GQ" name="Dependency3" supplier="_-VLTYBViEeODAq4Tm5H6GQ" xmi:id="7d6f1403-78a5-48da-a3d9-a633813595c1" xmi:type="uml:Dependency"/>
+    <packagedElement client="_KFWgYBVkEeODAq4Tm5H6GQ" name="Dependency4" supplier="_McPUsBVjEeODAq4Tm5H6GQ" xmi:id="f3534692-ac25-4cac-8f59-e2b1c6c41139" xmi:type="uml:Dependency"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization2" supplier="_82VhYBVjEeODAq4Tm5H6GQ" xmi:id="5f5d4efc-2e79-416e-8642-2d7b2e3ff6a3" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization3" supplier="_-VLTYBViEeODAq4Tm5H6GQ" xmi:id="7d297487-cf22-42cf-88f3-0ccf6e447195" xmi:type="uml:Realization"/>
+    <packagedElement client="_P2tF4BViEeODAq4Tm5H6GQ" name="Realization1" supplier="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="041a7232-6b48-472e-a321-52d86e2bea02" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization4" supplier="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:id="90cfadaf-6863-4af2-9dcd-894eee187bdd" xmi:type="uml:Realization"/>
+    <packagedElement client="_HCoXQBVZEeODAq4Tm5H6GQ" name="Realization3" supplier="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:id="19c5d077-8dd1-4826-8677-276d56b50a6c" xmi:type="uml:Realization"/>
+    <packagedElement client="_4kumcBVcEeODAq4Tm5H6GQ" name="Realization1" supplier="_EIAcYBVdEeODAq4Tm5H6GQ" xmi:id="801ea62b-3a26-46d6-9c42-8c7ea2205ce3" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization1" supplier="_Lda8ABVjEeODAq4Tm5H6GQ" xmi:id="56be27ca-a69f-417f-b3d0-ca7fde953490" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization6" supplier="_Gzx3YBVjEeODAq4Tm5H6GQ" xmi:id="0d329015-97ea-4df1-a6e0-b36cf1fc42da" xmi:type="uml:Realization"/>
+    <packagedElement client="_T739wBVdEeODAq4Tm5H6GQ" name="Realization1" supplier="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:id="8edbf72e-8738-4cbb-b1cf-4eabacb77fd3" xmi:type="uml:Realization"/>
+    <packagedElement client="_JmvLYBVcEeODAq4Tm5H6GQ" name="Realization1" supplier="_0bg44BVdEeODAq4Tm5H6GQ" xmi:id="ef7c049d-77fe-414f-a93c-8939fd663787" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization5" supplier="_CacfoBVjEeODAq4Tm5H6GQ" xmi:id="4d956f64-c7af-4327-bb0b-b1f3129e267a" xmi:type="uml:Realization"/>
+    <packagedElement client="_HCoXQBVZEeODAq4Tm5H6GQ" name="Realization1" supplier="_M10d4BVZEeODAq4Tm5H6GQ" xmi:id="15ad8baa-a914-4456-8dc5-bb2bbad15523" xmi:type="uml:Realization"/>
+    <packagedElement client="_R-qtYBVhEeODAq4Tm5H6GQ" name="Realization7" supplier="_McPUsBVjEeODAq4Tm5H6GQ" xmi:id="82834f50-8c72-4405-9801-ec48934de5fa" xmi:type="uml:Realization"/>
+  </uml:Model>
+<concerns:play base_Class="_4kumcBVcEeODAq4Tm5H6GQ" xmi:id="9ec140d9-93ec-487b-bcae-258c5fa5c13a"/>
+  <concerns:pause base_Class="_4kumcBVcEeODAq4Tm5H6GQ" xmi:id="f2b3363a-a150-41af-91b9-d6aafae5387b"/>
+  <concerns:play base_Class="_9eXw8BWTEeObs-pQrJ2skQ" xmi:id="33e37d27-5edb-49cf-9407-2489df689fa3"/>
+  <concerns:pause base_Class="_9rfm8BWTEeObs-pQrJ2skQ" xmi:id="102105b7-cddf-4a8b-bc5a-dd1d0e9cc074"/>
+  <concerns:brickles base_Class="_PMm-EBS0EeOYorUb5NKqTw" xmi:id="6bac0b12-85d0-4947-ba84-300a37ceca44"/>
+  <concerns:pong base_Class="_PMm-EBS0EeOYorUb5NKqTw" xmi:id="89568381-0ca1-4a63-b3ce-a692fc9e3304"/>
+  <concerns:collision base_Class="_UgPa4BS0EeOYorUb5NKqTw" xmi:id="6fdfa2fb-2333-471c-ba9b-40ddc016071c"/>
+  <concerns:brickles base_Class="_WP2-YBS0EeOYorUb5NKqTw" xmi:id="eb26b164-b11d-4b5d-9e03-16d94536691c"/>
+  <concerns:play base_Class="_VdaNwBS0EeOYorUb5NKqTw" xmi:id="058b3be3-ef0a-498f-8fcb-96136c74532c"/>
+  <smarty:alternative_OR base_Class="_PMm-EBS0EeOYorUb5NKqTw" rootVP="StationarySprite" variabilities="stationay_sprit" xmi:id="4ef31913-f84e-4580-bbfc-5895610d6f63"/>
+  <concerns:save base_Class="_bSsdwBTCEeOYorUb5NKqTw" xmi:id="15c056e8-8491-49c0-b753-62ebd13165de"/>
+  <concerns:ranking base_Class="2d6a5d89-714d-4bd4-9e45-a04008474359" xmi:id="4c71ca20-ac8a-44ec-9a31-0bd7b6e121eb"/>
+  <concerns:ranking base_Class="85ac2fdf-3b9d-46cd-8778-669eb462e6b8" xmi:id="2bd446a4-d2b4-41de-a0a5-0e579caaa5a0"/>
+  <concerns:ranking base_Class="a789dd17-417a-498a-af05-82aa3858fe2f" xmi:id="79c06307-c5de-4af7-8236-f3cabce25ec2"/>
+  <concerns:save base_Class="0a504b57-793c-4ce6-ba9c-d9f19b3ad2a3" xmi:id="8f7dec7d-fca2-4bb9-acc7-fa3813f839aa"/>
+  <concerns:save base_Class="_xLsxYBTCEeOYorUb5NKqTw" xmi:id="2b7cc71c-3a2c-4204-a81c-30834c4eacf5"/>
+  <concerns:ranking base_Class="_xamwEBTCEeOYorUb5NKqTw" xmi:id="0d2e892f-71ff-4f00-8d72-f31011911276"/>
+  <concerns:save base_Class="_w9TJABTCEeOYorUb5NKqTw" xmi:id="7c342feb-bad0-4b7f-919b-c6e902682f83"/>
+  <smarty:variationPoint base_Class="_prZDoBSsEeOYorUb5NKqTw" bindingTime="DESIGN_TIME" numberOfVariants="3" variabilities="game" variants="PongGame, BricklesGame, BowlingGame" xmi:id="ca822baa-1120-4a3f-9386-24ddf94c66e4"/>
+  <concerns:play base_Class="_prZDoBSsEeOYorUb5NKqTw" xmi:id="84df9620-1ae5-4a60-9600-2673fa30e153"/>
+  <concerns:play base_Class="91151dde-44fe-4b25-83f1-c5b921858238" xmi:id="83a6d07a-b4f8-4cba-9bdf-f43ec5c1cdee"/>
+  <concerns:save base_Class="_bCHQoBStEeOYorUb5NKqTw" xmi:id="81003373-894c-490f-a84f-d86ffa4a7511"/>
+  <concerns:play base_Class="_ZsHHABStEeOYorUb5NKqTw" xmi:id="f24203fc-4b1e-4f37-bcb2-164df621f46c"/>
+  <concerns:save base_Class="_Wd9I8BStEeOYorUb5NKqTw" xmi:id="9f844b9f-2a21-481f-80cd-007e658e5344"/>
+  <concerns:play base_Class="_UVfnoBStEeOYorUb5NKqTw" xmi:id="b65031dc-c417-4af3-959a-2ad7018f42ab"/>
+  <concerns:play base_Class="_KegUYBStEeOYorUb5NKqTw" xmi:id="11870ea1-4a4d-4b7c-937c-fb73510e9fdf"/>
+  <concerns:save base_Class="_JB2JIBStEeOYorUb5NKqTw" xmi:id="4cfff755-5fa2-4b98-950a-4d456fa4dcf7"/>
+  <smarty:mandatory base_Class="_prZDoBSsEeOYorUb5NKqTw" rootVP="" variabilities="" xmi:id="05223067-e9f6-4402-9783-1360ee1f3cc4"/>
+  <smarty:variationPoint base_Class="_Uo_ggBSvEeOYorUb5NKqTw" bindingTime="DESIGN_TIME" numberOfVariants="2" variabilities="movable_sprite" variants="Puck, Paddle" xmi:id="0b0fafaf-488a-4282-9c12-b3d0bdb66b99"/>
+  <concerns:collision base_Class="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="eb5ad8ae-99ef-4e7d-8c8a-4f116bc099f1"/>
+  <concerns:movement base_Class="_Uo_ggBSvEeOYorUb5NKqTw" xmi:id="4abd458d-baff-47a6-a003-f0a925be799d"/>
+  <concerns:movement base_Class="5b2a2967-0be9-4aae-b9a4-aa46963341fe" xmi:id="eb66b277-f801-4e74-abd4-3e6cf9a18e95"/>
+  <concerns:movement base_Class="ca4fcd86-f30e-4510-a4c7-6682cdc38f86" xmi:id="0730d6c8-4b6e-4d6e-b09f-45596d0c83e7"/>
+  <concerns:movement base_Class="296d6982-0fc9-43b7-8b44-b308bea2fdb0" xmi:id="98c312af-01ca-4fdd-8576-457c1075e686"/>
+  <concerns:movement base_Class="_JjWW4BSxEeOYorUb5NKqTw" xmi:id="c5b3fea4-5c8b-4e79-b7e0-bb17d8141eed"/>
+  <concerns:movement base_Class="_Ujj8ABSxEeOYorUb5NKqTw" xmi:id="cfadd83e-cbae-4efa-a36b-56597dc078fa"/>
+  <concerns:collision base_Class="_Od168BSxEeOYorUb5NKqTw" xmi:id="5d8d2e67-3aed-4fac-adc9-b054f60f1569"/>
+  <concerns:play base_Class="_HXI-ABSxEeOYorUb5NKqTw" xmi:id="93668c9b-941a-4c8a-8d28-86d11d11b17d"/>
+  <concerns:movement base_Class="_S7IloBSxEeOYorUb5NKqTw" xmi:id="c2c5da2f-6d0f-4170-b094-49bac93afca1"/>
+  <concerns:movement base_Class="_YJTJEBSwEeOYorUb5NKqTw" xmi:id="4ae0cf42-1554-4d56-b86e-0ce677cc0b32"/>
+  <concerns:movement base_Class="_LRf6wBSxEeOYorUb5NKqTw" xmi:id="44f238f4-2c44-4581-b4f6-f9cd15c80050"/>
+  <smarty:alternative_OR base_Class="_Uo_ggBSvEeOYorUb5NKqTw" rootVP="" variabilities="sprit" xmi:id="50ae68d5-2303-4bb6-8c67-090f13503762"/>
+  <concerns:pong base_Class="_IFYy0BSrEeOYorUb5NKqTw" xmi:id="c07e794c-07c7-4384-9770-6e064788c34f"/>
+  <concerns:pong base_Class="d2c0c9b1-dfcc-4e1b-9cfd-31687e34eada" xmi:id="7e8b88b9-f4d1-4c90-a300-f800cff6fa3e"/>
+  <concerns:pong base_Class="741f9c05-554f-4675-ada0-7ed3f5c023b0" xmi:id="0d97e1da-df54-4a24-a28c-e341fd669f0b"/>
+  <concerns:pong base_Class="95857691-bfd1-4312-a062-95000b4091ac" xmi:id="cf4d17de-47e3-41a8-af65-70bdeb43fb8b"/>
+  <concerns:play base_Class="_ll0x4BSrEeOYorUb5NKqTw" xmi:id="249e9d9f-2e2c-4611-a6cd-2139ba5a05b6"/>
+  <concerns:pong base_Class="_mTl20BSrEeOYorUb5NKqTw" xmi:id="4f43b100-ed20-4f60-aa1b-b2152b807773"/>
+  <concerns:save base_Class="_lQnW4BSrEeOYorUb5NKqTw" xmi:id="d9638a6f-3102-40fe-98e6-635ba98d037c"/>
+  <concerns:pong base_Class="_mAcRUBSrEeOYorUb5NKqTw" xmi:id="da548c21-7fc6-4755-8f0b-c5ddc4c25a2b"/>
+  <smarty:alternative_OR base_Class="_IFYy0BSrEeOYorUb5NKqTw" rootVP="Game" variabilities="game" xmi:id="77503865-dbce-40ab-8f58-6cb3e9d1dbb9"/>
+  <smarty:variationPoint base_Class="_Ru2b4BS1EeOYorUb5NKqTw" bindingTime="DESIGN_TIME" numberOfVariants="2" variabilities="sprit" variants="StationarySprite, MovableSprites" xmi:id="a0e57078-a491-4fa0-913d-79517a8833f0"/>
+  <concerns:play base_Class="_Ru2b4BS1EeOYorUb5NKqTw" xmi:id="62225a08-9857-4160-95c7-1821803e5a00"/>
+  <concerns:play base_Class="d8822088-53f9-4a2a-9543-00f249a0a750" xmi:id="821f350c-29b4-4827-828e-9a9233fdbc34"/>
+  <concerns:play base_Class="c0b7bb70-60ef-43c5-b261-9b71083fd694" xmi:id="12dffd21-dfd4-4ab7-8bea-ed3c6592aecd"/>
+  <concerns:play base_Class="feed4065-815e-41bc-9b95-68fd250791bc" xmi:id="4063a7d4-0dab-4309-bab4-35b6ab89d86b"/>
+  <concerns:bowling base_Class="_mPYgsBS1EeOYorUb5NKqTw" xmi:id="7fa01c94-efce-4c24-a593-19d91225b9ee"/>
+  <concerns:brickles base_Class="_mPYgsBS1EeOYorUb5NKqTw" xmi:id="28a6f629-df75-440f-a408-6aa73866c338"/>
+  <concerns:pong base_Class="_mPYgsBS1EeOYorUb5NKqTw" xmi:id="bf922d2c-01f3-43c5-b440-f04d415e0130"/>
+  <concerns:collision base_Class="_l3eXABS1EeOYorUb5NKqTw" xmi:id="ac032672-37fa-4c2c-843f-cd91fb55b67d"/>
+  <concerns:play base_Class="_mD_JABS1EeOYorUb5NKqTw" xmi:id="59785667-31ef-4b1b-8722-081ae9e7ba7b"/>
+  <smarty:mandatory base_Class="_Ru2b4BS1EeOYorUb5NKqTw" rootVP="MovableSprites" variabilities="" xmi:id="0d075ae5-d7d7-4770-97c1-02b737e8a465"/>
+  <concerns:logging base_Class="_NJM_EBS4EeOYorUb5NKqTw" xmi:id="c3aed5ca-50e9-4e84-9265-3be7cb4f3cd6"/>
+  <concerns:ranking base_Class="_NJM_EBS4EeOYorUb5NKqTw" xmi:id="0d270a03-aff9-4d37-a6f2-bd7bdb1e5c36"/>
+  <concerns:ranking base_Class="68a01e54-5b00-4f6a-9e9a-3d984c6f5e35" xmi:id="4ace577d-b2cd-4e90-ad3f-cc15cc9a5c5a"/>
+  <concerns:logging base_Class="0991d0de-017f-4904-bc6d-32780fc8342d" xmi:id="18cd3552-274a-480f-962b-94e59c2fd158"/>
+  <concerns:logging base_Class="6e094290-f4a7-4f47-8652-51143b05e50f" xmi:id="f75892b9-baea-49c5-9fba-21012b9824c0"/>
+  <concerns:ranking base_Class="749edc71-26de-4e4e-a782-7a4cf07e6724" xmi:id="c859903c-23be-4d0b-ac00-88056670db73"/>
+  <concerns:ranking base_Class="1f8a7e14-1365-4a9d-9bff-82207069819d" xmi:id="648461c3-a398-4a16-a275-38a51b1c0f57"/>
+  <concerns:ranking base_Class="7799c484-6239-4979-b97e-b4e854ffa643" xmi:id="928ba84f-db5a-4a3b-b0e8-bca5a0489a8e"/>
+  <concerns:logging base_Class="a6369346-9729-484c-8202-44116f05c572" xmi:id="6e674299-2815-467f-a70b-6460c0bbd0fa"/>
+  <concerns:ranking base_Class="23e57d15-cb83-4561-aa13-d703bd4cdfb0" xmi:id="0c0f4b03-734d-4dd4-afaa-7b3666f070f1"/>
+  <concerns:ranking base_Class="43c01d76-3146-4de4-8a0b-6a343509ba4a" xmi:id="9efb35c1-6e46-4eb9-9f2b-1f9a2c50b40c"/>
+  <concerns:logging base_Class="442989de-b1ae-4e3c-8d38-adf0abf0e0dc" xmi:id="9ac7c914-5131-4ede-af8c-9b499893770a"/>
+  <concerns:logging base_Class="0db7a40c-9ac2-4f4c-9a2a-875f7843f185" xmi:id="673004be-13a2-4205-8013-216ae6a402c5"/>
+  <concerns:logging base_Class="a5f308b0-ae71-4782-900d-760c46c51c00" xmi:id="26b0d3d7-7420-4688-866a-eb1facf0e18c"/>
+  <concerns:logging base_Class="ab44acf9-9611-4e1f-b517-e5fb4e8dc72d" xmi:id="d2321869-1d49-4739-8f99-3b78a4c713e4"/>
+  <concerns:ranking base_Class="_omALEBS7EeOYorUb5NKqTw" xmi:id="507b9fb2-918b-4565-99a9-d326d79f2c77"/>
+  <concerns:ranking base_Class="_oYkzEBS7EeOYorUb5NKqTw" xmi:id="2b674cca-abda-4c27-a1a9-de072c15f04a"/>
+  <concerns:logging base_Class="_o7-bEBS7EeOYorUb5NKqTw" xmi:id="fbbe679c-9505-4074-9c0c-b48a90b0c2d9"/>
+  <concerns:logging base_Class="_oy7MwBS7EeOYorUb5NKqTw" xmi:id="6e67beb5-c635-4337-bc73-602b96ed0dc5"/>
+  <concerns:logging base_Class="_UTBIIBS9EeOYorUb5NKqTw" xmi:id="1ba0833e-3e68-4205-ad89-705046979d64"/>
+  <concerns:ranking base_Class="_oFxL0BS7EeOYorUb5NKqTw" xmi:id="1d609d91-ad47-4e76-876d-c317f013ffc4"/>
+  <smarty:optional base_Class="_NJM_EBS4EeOYorUb5NKqTw" rootVP="Player" variabilities="ranking" xmi:id="609c2ef1-a154-4289-acac-739827753369"/>
+  <concerns:brickles base_Class="_5CPtUBS2EeOYorUb5NKqTw" xmi:id="27edc06a-53bb-46f0-87b9-cc2cd01cb7ae"/>
+  <concerns:brickles base_Class="a40b31af-e502-47e6-9293-385922bafdbd" xmi:id="58d6cedf-129e-4233-a877-33e1c420bbfa"/>
+  <concerns:brickles base_Class="d3e205fa-38af-4fd2-9bb9-010318c72142" xmi:id="5751a86f-ce4b-45e7-84fa-57fd0a245ee4"/>
+  <concerns:brickles base_Class="8b19db96-d548-40ae-8d7a-d4116e37dcff" xmi:id="9399249c-512c-4aed-bade-f072fbc39e89"/>
+  <concerns:brickles base_Class="05b83d37-22c2-490a-81a4-5f96cb6db53f" xmi:id="cf17a7b3-3110-4131-846e-a828976f4f0c"/>
+  <concerns:brickles base_Class="6b0a761c-895c-4bd8-866f-47daf1de96c9" xmi:id="db1d9ded-f79c-4104-8ba6-d1d5e0f8256f"/>
+  <concerns:brickles base_Class="_sbUMkBS3EeOYorUb5NKqTw" xmi:id="b97e812b-8044-4e6c-bdb7-4190c7b65684"/>
+  <concerns:save base_Class="_sbUMkBS3EeOYorUb5NKqTw" xmi:id="24166291-795f-4d51-a55b-f42aec178e10"/>
+  <concerns:brickles base_Class="_dD4IgBS3EeOYorUb5NKqTw" xmi:id="61760537-e0b5-433e-9229-f7f48137c688"/>
+  <concerns:play base_Class="_dRFeEBS3EeOYorUb5NKqTw" xmi:id="0dc79b92-1efb-450e-b33a-069965ecb34b"/>
+  <concerns:collision base_Class="_deDjEBS3EeOYorUb5NKqTw" xmi:id="cd3f4f92-7671-47a9-80d8-d0d5cff698a1"/>
+  <concerns:play base_Class="_dpldoBS3EeOYorUb5NKqTw" xmi:id="bde301c2-e6c0-44ed-9e32-0faddf5f2a0c"/>
+  <concerns:brickles base_Class="_d0GrkBS3EeOYorUb5NKqTw" xmi:id="11aaefbc-ef7a-4e73-9b8a-c379102ee4c8"/>
+  <concerns:save base_Class="_d0GrkBS3EeOYorUb5NKqTw" xmi:id="cd02a812-d7f9-4b11-ab1c-90c30922a6dd"/>
+  <smarty:alternative_OR base_Class="_5CPtUBS2EeOYorUb5NKqTw" rootVP="StationarySprite" variabilities="stationay_sprit" xmi:id="05784db4-82b1-455c-8052-b05baeb70760"/>
+  <concerns:play base_Class="_lD5HgBTBEeOYorUb5NKqTw" xmi:id="283691e3-abb3-48c2-89f3-c94550b57f45"/>
+  <concerns:play base_Class="a2205ab9-24ad-42ec-90f0-82cedc1e6bc1" xmi:id="13f8c87a-e478-4dc5-b3e4-97f4e4fe3900"/>
+  <concerns:play base_Class="_sBPUIBTBEeOYorUb5NKqTw" xmi:id="c7240308-cf9c-44db-aaef-84358d831c7a"/>
+  <concerns:play base_Class="_rtJ6gBTBEeOYorUb5NKqTw" xmi:id="514c0705-3432-4778-8ab7-76e5c69a5ba7"/>
+  <concerns:play base_Class="_Eg79MBTCEeOYorUb5NKqTw" xmi:id="6280c01d-b59b-4e93-8d19-e9475996562f"/>
+  <concerns:play base_Class="_re5cEBTBEeOYorUb5NKqTw" xmi:id="ecb3a38e-ae29-454a-9f63-47735e5d85af"/>
+  <concerns:play base_Class="_EyJB8BTCEeOYorUb5NKqTw" xmi:id="dbe2f8ec-dc7e-4dcc-a24a-4ea86fdffbc7"/>
+  <concerns:play base_Class="_K_6LwBTCEeOYorUb5NKqTw" xmi:id="253ee2c7-9d29-48a7-97b6-a15e1ef70dfd"/>
+  <smarty:variationPoint base_Class="_fFmg8BS9EeOYorUb5NKqTw" bindingTime="DESIGN_TIME" numberOfVariants="5" variabilities="stationay_sprit" variants="Ceiling, Floor, Wall, Brick, BrickPile" xmi:id="c721f30e-c63b-43e4-8a61-6a4ab9386549"/>
+  <concerns:brickles base_Class="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="8128d770-e751-45f2-ad16-05b11146ce00"/>
+  <concerns:pong base_Class="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="a70ad357-1a3d-4e41-8d49-74e4a8b2bdff"/>
+  <concerns:play base_Class="_fFmg8BS9EeOYorUb5NKqTw" xmi:id="53aa088c-12a4-4fc2-801a-7522629b7fdc"/>
+  <smarty:alternative_OR base_Class="_fFmg8BS9EeOYorUb5NKqTw" rootVP="Sprit" variabilities="sprit" xmi:id="6b077124-6b04-4e79-85d1-ec8a07fd8ace"/>
+  <concerns:brickles base_Class="_AfsXUBSsEeOYorUb5NKqTw" xmi:id="22e80b1f-f817-47ec-b7be-6556c7f7990d"/>
+  <concerns:brickles base_Class="f11052b6-bb53-4407-a80e-34eea937ca3c" xmi:id="76a1e509-8af3-4dfa-92f7-2d18894ac185"/>
+  <concerns:brickles base_Class="9bb2e244-0998-48e5-940c-2e73ae2ff4ba" xmi:id="259547b9-fbe4-4365-a2c7-827ed0b60188"/>
+  <concerns:brickles base_Class="_UzQ-MBSsEeOYorUb5NKqTw" xmi:id="6a9b99d7-6f1f-4cec-bfaf-c377274f491f"/>
+  <concerns:play base_Class="_USo9YBSsEeOYorUb5NKqTw" xmi:id="441198c3-0202-4313-9431-47eac3e00cfe"/>
+  <concerns:save base_Class="_TsduMBSsEeOYorUb5NKqTw" xmi:id="cddfff2e-61d6-4d31-bfa4-b14ffc2302d3"/>
+  <concerns:brickles base_Class="_UjKssBSsEeOYorUb5NKqTw" xmi:id="a3a8d4a8-9845-4a44-b649-4cd2000fdebf"/>
+  <smarty:alternative_OR base_Class="_AfsXUBSsEeOYorUb5NKqTw" rootVP="Game" variabilities="game" xmi:id="f27279b0-53c2-426c-a98f-9a028224b697"/>
+  <concerns:play base_Class="_L2zx0BSyEeOYorUb5NKqTw" xmi:id="f80ce125-dac7-4cb8-ad71-ff4fd359bc65"/>
+  <concerns:play base_Class="892f249f-3a47-4197-9a22-4eb22e24e70f" xmi:id="1c07ed2f-8180-4e30-97f3-0616702926fe"/>
+  <concerns:play base_Class="9f2213e2-46a3-4cec-a4df-d8cf6c4341b9" xmi:id="5648806e-b96e-4b38-bfa9-36774bf6963f"/>
+  <concerns:movement base_Class="_qLM9YBSyEeOYorUb5NKqTw" xmi:id="46357c14-b239-472a-9d58-54ae238e4c26"/>
+  <concerns:save base_Class="_sElg4BSyEeOYorUb5NKqTw" xmi:id="9214a7ad-d90b-4568-a27f-5c85b932df30"/>
+  <concerns:collision base_Class="_i9dkUBSyEeOYorUb5NKqTw" xmi:id="48598d93-f757-4a78-b7e8-d0c9a1d90879"/>
+  <concerns:movement base_Class="_muGkYBSyEeOYorUb5NKqTw" xmi:id="df62e1cd-c1b3-4a1c-aeae-4a1fad21cd96"/>
+  <concerns:save base_Class="_uImNwBS3EeOYorUb5NKqTw" xmi:id="c2aba19d-1f69-4d97-8dce-dfc6508114a5"/>
+  <concerns:play base_Class="_ntK0sBSyEeOYorUb5NKqTw" xmi:id="b0c63e61-0dee-49c1-b26e-477eb085d133"/>
+  <concerns:bowling base_Class="_lC608BSyEeOYorUb5NKqTw" xmi:id="bff31b0d-5139-45f6-9c67-ec9087050f73"/>
+  <concerns:brickles base_Class="_lC608BSyEeOYorUb5NKqTw" xmi:id="0a84f240-54f5-4d62-8565-3e4175f89e5f"/>
+  <concerns:pong base_Class="_lC608BSyEeOYorUb5NKqTw" xmi:id="c159dcbe-d02c-44d6-a399-96e416cd5099"/>
+  <smarty:alternative_OR base_Class="_L2zx0BSyEeOYorUb5NKqTw" rootVP="MovableSprites" variabilities="movable_sprite" xmi:id="01134347-e4b7-4282-be84-7dccff8edabb"/>
+  <concerns:movement base_Class="_oqHsgBSvEeOYorUb5NKqTw" xmi:id="f0834cf8-7122-472a-a475-f0df69093764"/>
+  <concerns:movement base_Class="2e59df77-348a-4796-bb1b-14e86e1c5635" xmi:id="3089233c-425c-4cd1-bcb6-79542c38f607"/>
+  <concerns:movement base_Class="b545f7de-70a8-47a0-82b6-a0ef4383a3c4" xmi:id="71ac7308-b1ee-42e2-a050-edbce0248156"/>
+  <concerns:movement base_Class="9ccc1f40-5804-428a-88b2-f7da98363582" xmi:id="84962493-97b7-466a-916f-b9888eb69e6e"/>
+  <concerns:movement base_Class="bd958bcb-6ce6-4697-b5fc-9d3c83da14b4" xmi:id="0d028866-510b-499e-b4df-18ca319e42c9"/>
+  <concerns:movement base_Class="_-_tjkBSxEeOYorUb5NKqTw" xmi:id="4a8f4a3b-7200-4978-95b7-4d8522dd8851"/>
+  <concerns:movement base_Class="_BMx4EBSyEeOYorUb5NKqTw" xmi:id="ec4323b4-42db-4ce6-8437-c7bc146f2f30"/>
+  <concerns:movement base_Class="_8l07EBSxEeOYorUb5NKqTw" xmi:id="c8695c67-de92-4265-b0dd-4b27c3462c23"/>
+  <concerns:movement base_Class="_ABl3UBSyEeOYorUb5NKqTw" xmi:id="8160dd19-5906-44cf-96d3-5f2eba1ec795"/>
+  <concerns:play base_Class="_xScE0BS9EeOYorUb5NKqTw" xmi:id="d740e648-8c6a-40da-bd0d-bfe53f4c9004"/>
+  <concerns:collision base_Class="68cfcf34-a48a-4943-88c5-3a52ad50ca9b" xmi:id="48739926-acda-4f2e-82f4-596efbe117c7"/>
+  <concerns:play base_Class="bdf0dbb3-c66a-409e-b3f5-1d14479ce4e3" xmi:id="395bea74-9cdc-45fb-88bb-9647337b9361"/>
+  <concerns:play base_Class="2e58d760-40f8-44ee-a18a-a0699b229814" xmi:id="2d8dda56-0f11-40d0-9482-795ecad1c8a0"/>
+  <concerns:play base_Class="6cab55d3-5cdf-4bba-8161-d49c330553dd" xmi:id="1dd5a67d-5e29-4acb-b4b0-c443aa24a59c"/>
+  <concerns:play base_Class="c9961a86-b3cf-4cb2-bf8c-4b1cfbff365b" xmi:id="61506b67-55b2-4929-a64b-1e8cb6c83976"/>
+  <concerns:movement base_Class="c975db89-32c8-4663-bcbd-5349e86030e2" xmi:id="3e2c9304-e7f6-40c6-92a0-2e97df64ca4d"/>
+  <concerns:play base_Class="44232bd0-8c9f-43b3-b9e2-2a3c3c105fe1" xmi:id="bb37231d-65ab-4e8b-84e5-8b4fc4411b99"/>
+  <concerns:movement base_Class="565ccf3e-b241-4e71-a4f0-68c9ceca5afc" xmi:id="18452053-0ad7-4f71-ac11-7165dcaad367"/>
+  <concerns:play base_Class="e6733d81-da9f-43d1-9dcd-3c41e9ae2ed7" xmi:id="dc767954-c540-4d55-838a-8820d0828de7"/>
+  <concerns:play base_Class="510ada31-f4f0-4d4e-816d-f340a4b6fddb" xmi:id="7b7ab546-2b93-45c5-9911-8ef4ede422f4"/>
+  <concerns:play base_Class="_xHoREBS_EeOYorUb5NKqTw" xmi:id="a9c99b6d-b5e4-4ee1-92d3-bea2ecb57983"/>
+  <concerns:play base_Class="_SIYVMBTAEeOYorUb5NKqTw" xmi:id="6f53b20b-b078-445a-a2fe-bdf218e417b0"/>
+  <concerns:play base_Class="_0YAnQBTAEeOYorUb5NKqTw" xmi:id="846cb953-9afb-4de3-b581-5f793a6a44a2"/>
+  <concerns:play base_Class="_xcdRkBS_EeOYorUb5NKqTw" xmi:id="be382d36-9f1a-4ea7-a7ec-7012417ac4c9"/>
+  <concerns:play base_Class="_7MaTQBTAEeOYorUb5NKqTw" xmi:id="0af387e4-fa3c-48c8-8049-4cd4fe938038"/>
+  <concerns:play base_Class="_n0Qy0BTAEeOYorUb5NKqTw" xmi:id="6455e5ee-9366-4c4f-9ad7-8d897fa4d1c7"/>
+  <concerns:play base_Class="_8Pyb0BTAEeOYorUb5NKqTw" xmi:id="f29c6345-e20c-4dac-8543-79aa50da470c"/>
+  <concerns:play base_Class="_ySjMEBS_EeOYorUb5NKqTw" xmi:id="b07bb28b-1fda-41d1-9f7a-3f684fe35d1f"/>
+  <concerns:movement base_Class="_xzzakBS_EeOYorUb5NKqTw" xmi:id="a6a25a8f-29ad-4a41-b3ec-4086c2a67382"/>
+  <concerns:collision base_Class="_0qZXwBTAEeOYorUb5NKqTw" xmi:id="89b4444d-0ef3-4054-a9e8-5f78fa94e25e"/>
+  <concerns:play base_Class="_927_0BTAEeOYorUb5NKqTw" xmi:id="2af02dd5-94bc-4b8d-9858-4ad55108b173"/>
+  <concerns:play base_Class="_5_41wBTAEeOYorUb5NKqTw" xmi:id="343d297e-a993-44b1-ad16-e1469bd47e5a"/>
+  <concerns:collision base_Class="_SeS60BTAEeOYorUb5NKqTw" xmi:id="60ec04c6-df42-45e0-b4e3-f6c28b7eea32"/>
+  <concerns:play base_Class="_xS_zkBS_EeOYorUb5NKqTw" xmi:id="15bf6a00-8c6c-472f-9030-4508e168a1d6"/>
+  <concerns:play base_Class="_SUcbQBTAEeOYorUb5NKqTw" xmi:id="27964207-81e0-48fa-8346-6e5242627d01"/>
+  <concerns:play base_Class="_w6yu8BS_EeOYorUb5NKqTw" xmi:id="d798ed86-16ee-409c-9a68-aa886178b2e3"/>
+  <concerns:movement base_Class="_xoIWEBS_EeOYorUb5NKqTw" xmi:id="43c0d999-4216-41be-9b2d-29125721a0c5"/>
+  <concerns:play base_Class="_ymKroBS_EeOYorUb5NKqTw" xmi:id="face3255-4764-4056-a423-825b552cf6bd"/>
+  <concerns:collision base_Class="_0h7YQBTAEeOYorUb5NKqTw" xmi:id="cd6cc62b-f2a9-4e4e-b556-50792387b84b"/>
+  <concerns:movement base_Class="_x-zwsBS_EeOYorUb5NKqTw" xmi:id="f9c22682-8ee5-475c-b8e1-6dd6bf68ac69"/>
+  <concerns:play base_Class="_ybpdsBS_EeOYorUb5NKqTw" xmi:id="39fcfe0e-ded8-4aba-a7f0-d55573f6a366"/>
+  <concerns:play base_Class="_yJpuwBS_EeOYorUb5NKqTw" xmi:id="70c6bbfc-1019-4943-8671-bc4165a0258e"/>
+  <concerns:play base_Class="_R4EBQBTAEeOYorUb5NKqTw" xmi:id="b44d57e7-429b-400d-b7c9-81dd6a887f2e"/>
+  <concerns:brickles base_Class="_8CTh0BSyEeOYorUb5NKqTw" xmi:id="85114977-f646-47c1-9985-18f79861cdc7"/>
+  <concerns:pong base_Class="_8CTh0BSyEeOYorUb5NKqTw" xmi:id="dd8fb3fa-6439-4831-9502-826cd2a7c7c4"/>
+  <concerns:play base_Class="_CYfAwBSzEeOYorUb5NKqTw" xmi:id="e9506e7d-7331-4cee-bf88-66568184ff0c"/>
+  <concerns:collision base_Class="_CCx2gBSzEeOYorUb5NKqTw" xmi:id="80fefde8-93ae-47fc-992d-323ffe178285"/>
+  <concerns:pong base_Class="_BHpD8BSzEeOYorUb5NKqTw" xmi:id="dc7011ae-6ea2-40af-9659-530f1ed1b5e3"/>
+  <smarty:alternative_OR base_Class="_8CTh0BSyEeOYorUb5NKqTw" rootVP="StationarySprite" variabilities="stationay_sprit" xmi:id="b51cd2ea-2908-4613-9b4f-7399c8a12f83"/>
+  <concerns:bowling base_Class="_KbxQ0BSqEeOYorUb5NKqTw" xmi:id="5a8c3eaa-cdd7-4597-a0cc-e7db1e43eb12"/>
+  <concerns:bowling base_Class="6e16decd-83e0-4b59-838b-49c3b10d75c6" xmi:id="8e70fee6-ca8b-49d4-a90d-8a2668e97e58"/>
+  <concerns:bowling base_Class="435340da-57f4-4509-9b1e-85494d5348f0" xmi:id="c00bc6e7-8791-44e2-b005-0a0ed953c341"/>
+  <concerns:play base_Class="_z0OmwBSqEeOYorUb5NKqTw" xmi:id="8267b7fa-8625-4826-92ac-f346bee37acd"/>
+  <concerns:save base_Class="_pS25wBSqEeOYorUb5NKqTw" xmi:id="b08f3864-f4fd-4bbd-a02f-3576c59f2107"/>
+  <concerns:bowling base_Class="_BTWeUBSrEeOYorUb5NKqTw" xmi:id="1e0bbdd5-9b28-47bc-9fb0-a1754e187b1d"/>
+  <concerns:bowling base_Class="_3TMA8BSqEeOYorUb5NKqTw" xmi:id="1d800751-9161-4c61-9e59-c2918efda452"/>
+  <smarty:alternative_OR base_Class="_KbxQ0BSqEeOYorUb5NKqTw" rootVP="Game" variabilities="game" xmi:id="a93123df-7582-40b8-831c-4dca2ea63f2d"/>
+  <concerns:brickles base_Class="_AMfYYBS1EeOYorUb5NKqTw" xmi:id="df0ba0be-2816-418e-98a2-2f470c1a9c6c"/>
+  <concerns:pong base_Class="_AMfYYBS1EeOYorUb5NKqTw" xmi:id="05e4f875-6d9f-4127-82fa-41d5e82eab25"/>
+  <concerns:play base_Class="_EJMegBS1EeOYorUb5NKqTw" xmi:id="df2ea8a8-bce0-40de-bcce-7da04bb4e905"/>
+  <concerns:collision base_Class="_D7TzgBS1EeOYorUb5NKqTw" xmi:id="c32a7997-499b-4eb4-ba6b-7e97cffe257f"/>
+  <smarty:alternative_OR base_Class="_AMfYYBS1EeOYorUb5NKqTw" rootVP="StationarySprite" variabilities="stationay_sprit" xmi:id="92680432-6fde-43d5-9b11-6eddab705c43"/>
+  <concerns:play base_Class="_IXCC0BSzEeOYorUb5NKqTw" xmi:id="fd58bcc9-186d-466d-8ee2-bb702c1a803e"/>
+  <concerns:collision base_Class="_NKwQgBSzEeOYorUb5NKqTw" xmi:id="cd58ad04-dde7-45c3-8375-c1b918db0717"/>
+  <concerns:save base_Class="_wCUvgBS3EeOYorUb5NKqTw" xmi:id="7a8122a7-5b23-4016-9b70-de255d37dc38"/>
+  <concerns:movement base_Class="_O_8QgBSzEeOYorUb5NKqTw" xmi:id="8274fc51-42ca-43f6-8eba-83233ce94138"/>
+  <concerns:play base_Class="_T2r9ABSzEeOYorUb5NKqTw" xmi:id="cf47ccee-d1cb-4201-aa19-954e0586c1ba"/>
+  <concerns:movement base_Class="_P77-sBSzEeOYorUb5NKqTw" xmi:id="9d091f3f-cc72-4971-9299-b8eb698914be"/>
+  <concerns:save base_Class="_U4DTYBSzEeOYorUb5NKqTw" xmi:id="f55f494a-95a3-4f7a-97f5-ef31475fc53a"/>
+  <smarty:alternative_OR base_Class="_IXCC0BSzEeOYorUb5NKqTw" rootVP="MovableSprites" variabilities="movable_sprite" xmi:id="eb020033-9ea6-465c-a303-62f414ea7ef8"/>
+  <concerns:play base_Class="_T739wBVdEeODAq4Tm5H6GQ" xmi:id="9351727e-3cf4-44f8-beff-321a2945c3df"/>
+  <concerns:play base_Class="_fbl-ABWMEeObs-pQrJ2skQ" xmi:id="d214c117-464f-420e-a38f-5a0c7df42741"/>
+  <concerns:brickles base_Class="_7YIxMBS3EeOYorUb5NKqTw" xmi:id="f9824d2e-26e8-43c9-9aa5-b2915f2b35d3"/>
+  <concerns:brickles base_Class="0a687a1c-92dd-406b-95a7-0bcd602001ce" xmi:id="d9f24ea8-6e18-454c-8cdd-ccdf88f09c29"/>
+  <concerns:brickles base_Class="_BaPdkBS4EeOYorUb5NKqTw" xmi:id="fb9afe93-236d-4795-a811-0d648dd03a1e"/>
+  <concerns:save base_Class="_BaPdkBS4EeOYorUb5NKqTw" xmi:id="7e6ff401-b9e1-4a01-a16b-dd066b4702d3"/>
+  <concerns:collision base_Class="_A3_FEBS4EeOYorUb5NKqTw" xmi:id="7198e1e2-0652-41d4-822b-17c1815d3bba"/>
+  <concerns:brickles base_Class="_BmrXEBS4EeOYorUb5NKqTw" xmi:id="c41f9f28-c8bd-4640-aa97-f0194ff21a7f"/>
+  <concerns:save base_Class="_BmrXEBS4EeOYorUb5NKqTw" xmi:id="2a3767a9-9267-4cee-af51-cfe35b7489d5"/>
+  <concerns:brickles base_Class="_BC0cEBS4EeOYorUb5NKqTw" xmi:id="545bf0eb-9e43-4d47-85f9-bbb90982e33c"/>
+  <concerns:brickles base_Class="_BPLdEBS4EeOYorUb5NKqTw" xmi:id="9f43f19c-dc58-4dae-8d07-4a0983fe1537"/>
+  <concerns:play base_Class="_Atly8BS4EeOYorUb5NKqTw" xmi:id="10df6713-b812-4bd7-8928-99cb52d3b03d"/>
+  <smarty:alternative_OR base_Class="_7YIxMBS3EeOYorUb5NKqTw" rootVP="StationarySprite" variabilities="stationay_sprit" xmi:id="88f41fae-0dc1-4585-bb53-ebb6acd43d45"/>
+  <smarty:interface base_Class="_M10d4BVZEeODAq4Tm5H6GQ" xmi:id="d7464eb1-bba7-4852-922e-b4895bb4242c"/>
+  <smarty:interface base_Class="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="5e531ce2-b2ae-481c-8b79-dcbea0789883"/>
+  <smarty:interface base_Class="_Gzx3YBVjEeODAq4Tm5H6GQ" xmi:id="6185b1b5-9c54-4996-ba1a-b83996d9608c"/>
+  <smarty:interface base_Class="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:id="734a1ff6-9a02-4124-935d-dc7146c19a06"/>
+  <smarty:interface base_Class="_Lda8ABVjEeODAq4Tm5H6GQ" xmi:id="af082514-ed61-4f8d-8b10-750febce9a9a"/>
+  <smarty:interface base_Class="_0bg44BVdEeODAq4Tm5H6GQ" xmi:id="b94d1080-93b5-487d-956d-0a3b7db7fcac"/>
+  <smarty:interface base_Class="_EIAcYBVdEeODAq4Tm5H6GQ" xmi:id="127f7991-9924-41a1-8d39-9c063eeb04d2"/>
+  <smarty:interface base_Class="_-VLTYBViEeODAq4Tm5H6GQ" xmi:id="f2bdb67d-a78b-4650-bb75-3fa59242a146"/>
+  <smarty:interface base_Class="_McPUsBVjEeODAq4Tm5H6GQ" xmi:id="27150048-57c6-4620-b379-f221eef4b291"/>
+  <smarty:interface base_Class="_CacfoBVjEeODAq4Tm5H6GQ" xmi:id="beba7b04-197a-4e7b-ae7b-e7d580935803"/>
+  <smarty:interface base_Class="_82VhYBVjEeODAq4Tm5H6GQ" xmi:id="e4dccdfb-b65c-413b-893b-371f66c75a17"/>
+  <smarty:interface base_Class="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:id="d1ba02a3-4e05-4f81-acac-bab04aa27df2"/>
+  <smarty:interface base_Class="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:id="5777aa33-cc2b-40c5-a372-d8c5ebbd05d6"/>
+  <concerns:play base_Class="_56sIQBVmEeODAq4Tm5H6GQ" xmi:id="c41c7c7d-89b9-4456-986f-36e440374d05"/>
+  <concerns:play base_Class="_HiZUEBVnEeODAq4Tm5H6GQ" xmi:id="6d15a0b8-0261-40d8-8425-08ebfe3ac2f6"/>
+  <concerns:ranking base_Class="_MhY9oBVnEeODAq4Tm5H6GQ" xmi:id="4aefc291-cab3-4700-abef-1f3a619433d6"/>
+  <concerns:play base_Class="_az2zIBVmEeODAq4Tm5H6GQ" xmi:id="d842ee02-550b-400c-ae06-da0cd5f4a33f"/>
+  <concerns:play base_Class="_H00hABWMEeObs-pQrJ2skQ" xmi:id="61d2b04a-83d1-4b95-8ab7-d9699d27ffeb"/>
+  <concerns:play base_Class="_M10d4BVZEeODAq4Tm5H6GQ" xmi:id="1182fc5c-930c-45e3-b729-bdd5ad4da1f4"/>
+  <concerns:save base_Class="_4ud7ABWNEeObs-pQrJ2skQ" xmi:id="059b405f-a2b4-4d1a-b354-5ac35ffe31c5"/>
+  <concerns:play base_Class="_4bTucBWNEeObs-pQrJ2skQ" xmi:id="5254fe9a-a0bd-48fe-a262-9dfd492d586f"/>
+  <concerns:play base_Class="_5M0q8BWNEeObs-pQrJ2skQ" xmi:id="04541537-e234-41c8-86cc-eb7ec9039143"/>
+  <concerns:play base_Class="_WGchoBWOEeObs-pQrJ2skQ" xmi:id="663567b2-d844-472c-ac5d-386ca810963b"/>
+  <concerns:configuration base_Class="_ps4VsBWOEeObs-pQrJ2skQ" xmi:id="721946e8-cd44-4f29-aae2-4827cf01d22f"/>
+  <concerns:configuration base_Class="_pcB2QBWOEeObs-pQrJ2skQ" xmi:id="4d28028d-59b6-4449-8597-c2e77495c38d"/>
+  <concerns:play base_Class="_4-ZNYBWNEeObs-pQrJ2skQ" xmi:id="e3cc7a87-5b05-4f16-ba95-9045d83c8fe7"/>
+  <concerns:save base_Class="_aA0sgBWOEeObs-pQrJ2skQ" xmi:id="d2d96030-14a2-4a81-bb70-74de9c701898"/>
+  <concerns:configuration base_Class="_pNd10BWOEeObs-pQrJ2skQ" xmi:id="93862f99-955b-4970-80b6-5254a1d8393f"/>
+  <concerns:save base_Class="_cXIckBWOEeObs-pQrJ2skQ" xmi:id="78a60b91-a1bd-4e20-854d-9582e4e5b807"/>
+  <concerns:configuration base_Class="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="78720756-4f38-4a2a-bda8-2bfdcdd1b18a"/>
+  <concerns:play base_Class="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="f8be9925-2fc0-4119-9479-60bc1e48bfd7"/>
+  <concerns:save base_Class="_R38k4BViEeODAq4Tm5H6GQ" xmi:id="0277a4a1-5c5a-42a9-95f2-c9a5527d94c6"/>
+  <concerns:configuration base_Class="_dbUA8BWPEeObs-pQrJ2skQ" xmi:id="5a11e1c3-5fb0-4b47-a7f8-6226a6b45c19"/>
+  <concerns:configuration base_Class="_dr9FABWPEeObs-pQrJ2skQ" xmi:id="e0a8d29a-0425-4379-9643-44054a7d3191"/>
+  <concerns:configuration base_Class="_Gzx3YBVjEeODAq4Tm5H6GQ" xmi:id="771067cc-892d-48ed-a0bb-281e6fe778e8"/>
+  <concerns:logging base_Class="_1lmIwBWREeObs-pQrJ2skQ" xmi:id="b273ddde-2c1f-4aee-9b66-47c14e189305"/>
+  <concerns:brickles base_Class="_1YqgABWREeObs-pQrJ2skQ" xmi:id="47690f2d-9429-4c0e-b69b-cb2c2f572d07"/>
+  <concerns:play base_Class="_1YqgABWREeObs-pQrJ2skQ" xmi:id="35aa1c66-46e7-424e-9cf2-cdf31a0e2ad1"/>
+  <concerns:configuration base_Class="_1IWMEBWREeObs-pQrJ2skQ" xmi:id="9b19e07c-0ea3-4bd4-8b3b-8add085b61c2"/>
+  <concerns:brickles base_Class="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:id="ba953e45-389d-45cb-a19a-e21470c30deb"/>
+  <concerns:play base_Class="_4L4Z4BViEeODAq4Tm5H6GQ" xmi:id="087b21ad-fa49-4d77-a0b0-d4328803c906"/>
+  <concerns:play base_Class="_RTYB8BWTEeObs-pQrJ2skQ" xmi:id="ae3139e1-8802-49e4-a98b-eb12abed106b"/>
+  <concerns:play base_Class="_Rnl-cBWTEeObs-pQrJ2skQ" xmi:id="f19ead46-bc97-43bf-9815-42a85cb27bac"/>
+  <concerns:play base_Class="_Lda8ABVjEeODAq4Tm5H6GQ" xmi:id="2a40d104-a745-4832-beb6-4f69510fa778"/>
+  <concerns:save base_Class="_YNaqoBWNEeObs-pQrJ2skQ" xmi:id="fde322be-9904-472d-a56f-f3df130949ab"/>
+  <concerns:play base_Class="_vCv44BVnEeODAq4Tm5H6GQ" xmi:id="b15a522e-84c9-4861-9a36-fc5933bd1f07"/>
+  <concerns:play base_Class="_DPjwoBWNEeObs-pQrJ2skQ" xmi:id="80996c32-5562-4646-9357-41898dac46fe"/>
+  <concerns:play base_Class="_v3Op0BVnEeODAq4Tm5H6GQ" xmi:id="e76e66dd-0bcd-48a5-901e-6a8644dc1219"/>
+  <concerns:play base_Class="_vm0PQBVnEeODAq4Tm5H6GQ" xmi:id="b9e9271e-3729-48dd-9a60-63627ff1a157"/>
+  <concerns:play base_Class="_uZvYIBVnEeODAq4Tm5H6GQ" xmi:id="049b7f39-e3e2-4c55-bdf1-276f9d88f884"/>
+  <concerns:play base_Class="_uFK2UBVnEeODAq4Tm5H6GQ" xmi:id="55ac4433-8e34-462c-b8e4-ba96ef02b2b7"/>
+  <concerns:play base_Class="_uu2sgBVnEeODAq4Tm5H6GQ" xmi:id="c4ca59ba-31fc-46cc-9b03-532b217922df"/>
+  <concerns:play base_Class="_wkfYoBWMEeObs-pQrJ2skQ" xmi:id="596c33e0-fc8b-42bc-a28a-b3261d483f5b"/>
+  <concerns:play base_Class="_vS2xcBVnEeODAq4Tm5H6GQ" xmi:id="7886715a-fc53-4128-97e6-fae472002b99"/>
+  <concerns:play base_Class="_1qBvEBWMEeObs-pQrJ2skQ" xmi:id="3b1aef86-a9a1-447c-bc4d-605baba03b75"/>
+  <concerns:save base_Class="_eFFooBWNEeObs-pQrJ2skQ" xmi:id="5dc4f8a9-6112-4dba-8827-03d93e760bfa"/>
+  <concerns:play base_Class="_RGtGoBWNEeObs-pQrJ2skQ" xmi:id="ddfcfc3b-8f00-40f0-a2de-4b6cc6ece625"/>
+  <concerns:play base_Class="_0bg44BVdEeODAq4Tm5H6GQ" xmi:id="f075e93c-4389-4936-af41-84f642900dff"/>
+  <concerns:play base_Class="_pkzlgBWTEeObs-pQrJ2skQ" xmi:id="64098d09-90be-4d2b-9531-1a287a2a3c0e"/>
+  <concerns:pause base_Class="_pwfREBWTEeObs-pQrJ2skQ" xmi:id="19d21ee9-a0bf-4ee5-95c0-b237e0b8fe5c"/>
+  <concerns:play base_Class="_EIAcYBVdEeODAq4Tm5H6GQ" xmi:id="177663aa-4d76-4b93-ac4c-0dfa93b9eed7"/>
+  <concerns:pause base_Class="_EIAcYBVdEeODAq4Tm5H6GQ" xmi:id="752191c8-158e-4c99-aba6-59cf221d190d"/>
+  <concerns:pong base_Class="_UkIS8BWREeObs-pQrJ2skQ" xmi:id="43780a8e-ae7e-4d2d-878a-cb088bdc1308"/>
+  <concerns:play base_Class="_UkIS8BWREeObs-pQrJ2skQ" xmi:id="d22f96ec-2727-4e63-8d67-90429316d130"/>
+  <concerns:logging base_Class="_U-X-8BWREeObs-pQrJ2skQ" xmi:id="98028175-30ae-487e-a0a3-c95f19faae39"/>
+  <concerns:configuration base_Class="_TrNG4BWREeObs-pQrJ2skQ" xmi:id="53bfe32f-5f3c-4374-ac80-702d6d77fcfe"/>
+  <concerns:pong base_Class="_-VLTYBViEeODAq4Tm5H6GQ" xmi:id="40c20ac2-78ce-41b5-a6db-4e00345ee671"/>
+  <concerns:play base_Class="_-VLTYBViEeODAq4Tm5H6GQ" xmi:id="9977b76a-ca38-413a-9af4-1658148bfe26"/>
+  <concerns:save base_Class="_shkHABWSEeObs-pQrJ2skQ" xmi:id="2171e655-9e33-4400-adaa-8d933a156832"/>
+  <concerns:save base_Class="_sEty8BWSEeObs-pQrJ2skQ" xmi:id="349c686a-bd33-4e75-bb16-b9c06ded5b31"/>
+  <concerns:save base_Class="_sUIvABWSEeObs-pQrJ2skQ" xmi:id="88cb7d2c-8d64-4755-b4ed-5224f13a6355"/>
+  <concerns:play base_Class="_McPUsBVjEeODAq4Tm5H6GQ" xmi:id="6f61e445-a508-472a-99f7-5f91a8a8c4ab"/>
+  <concerns:configuration base_Class="_NXCFABWPEeObs-pQrJ2skQ" xmi:id="ece0c7e9-d2b2-4a52-b323-9d27b9491dd1"/>
+  <concerns:configuration base_Class="_NFzLEBWPEeObs-pQrJ2skQ" xmi:id="9594a502-510e-4609-9236-ac4750059689"/>
+  <concerns:configuration base_Class="_CacfoBVjEeODAq4Tm5H6GQ" xmi:id="70555358-f61d-41c6-9f4c-f6dfa0a27668"/>
+  <concerns:logging base_Class="_azEsABWSEeObs-pQrJ2skQ" xmi:id="d43c5519-3638-4eb6-bc0e-1866a7228dee"/>
+  <concerns:configuration base_Class="_aUKicBWSEeObs-pQrJ2skQ" xmi:id="4740e931-f8d7-4d5c-abb7-1debf87e8857"/>
+  <concerns:bowling base_Class="_aiq4gBWSEeObs-pQrJ2skQ" xmi:id="452639f5-93c6-4f5d-a763-e0a4e7b56f0b"/>
+  <concerns:play base_Class="_aiq4gBWSEeObs-pQrJ2skQ" xmi:id="2e1fdd25-edf2-4223-96b5-3df5ec331a01"/>
+  <concerns:bowling base_Class="_82VhYBVjEeODAq4Tm5H6GQ" xmi:id="e5a711ca-496e-49ce-90e5-4cb2b97ee76e"/>
+  <concerns:play base_Class="_82VhYBVjEeODAq4Tm5H6GQ" xmi:id="fa2a28ce-11b1-4898-9522-0bfb220fd657"/>
+  <concerns:play base_Class="_SmmBgBWMEeObs-pQrJ2skQ" xmi:id="9e0789f3-dcf9-4beb-b216-7e5b9823a912"/>
+  <concerns:play base_Class="_Y4SNYBVdEeODAq4Tm5H6GQ" xmi:id="5561322a-5c56-4e98-91b7-cdaafb45e6e5"/>
+  <concerns:save base_Class="_91CwEBWJEeObs-pQrJ2skQ" xmi:id="a255ee1d-4649-4782-b651-b9763323280a"/>
+  <concerns:ranking base_Class="_-OX2EBWJEeObs-pQrJ2skQ" xmi:id="b737a867-c5bb-4784-ae13-5e37ab271bf0"/>
+  <concerns:ranking base_Class="_-BssABWJEeObs-pQrJ2skQ" xmi:id="2bb92ed0-d744-4fe4-ad2d-3aa8ece8bc9c"/>
+  <concerns:ranking base_Class="_-cGwEBWJEeObs-pQrJ2skQ" xmi:id="dd212b19-2104-48df-9a87-2eddd8a4e487"/>
+  <concerns:save base_Class="_7x3XYBWJEeObs-pQrJ2skQ" xmi:id="21223c96-6ed8-46fb-bcf6-7db93e05d9d8"/>
+  <concerns:save base_Class="_9liUcBWJEeObs-pQrJ2skQ" xmi:id="7744d78c-7638-424b-b1fa-a0a0d12f967b"/>
+  <concerns:save base_Class="_ukGrgBVbEeODAq4Tm5H6GQ" xmi:id="607c11bb-6dc7-44ff-9159-86a6b65a6eff"/>
+  <smarty:variability base_Comment="5188130c-531d-49f7-bc49-3de43db57708" bindingTime="DESIGN_TIME" maxSelection="3" minSelection="1" name="game" variants="PongGame, BricklesGame, BowlingGame" xmi:id="17ac34b5-5b9c-4cf3-be06-b2fa0a0c85cc"/>
+  <smarty:variability base_Comment="c85eb0f8-1764-49eb-b8c3-8f3c9c2c0099" bindingTime="DESIGN_TIME" maxSelection="4" minSelection="1" name="stationay_sprit" variants="Ceiling, Floor, Wall, Brick, BrickPile" xmi:id="a470839a-b6c2-4d3a-94e5-0690334d3dea"/>
+  <smarty:variability base_Comment="83640d7c-d1f2-4792-957c-c1b21dbdaa09" bindingTime="DESIGN_TIME" maxSelection="2" minSelection="1" name="sprit" variants="StationarySprite, MovableSprites" xmi:id="1395c8a7-2c92-4e10-b60a-f5fb2218a6a4"/>
+  <smarty:variability base_Comment="ccb57d0e-a84c-4838-a9a6-4d805a22b9be" bindingTime="DESIGN_TIME" maxSelection="1" minSelection="0" name="ranking" variants="Player" xmi:id="09cbcad8-b4d9-4cc6-8a81-bf4869ba5127"/>
+  <smarty:variability base_Comment="3417786c-45d4-488d-9e93-f2537a9f8615" bindingTime="DESIGN_TIME" maxSelection="2" minSelection="1" name="movable_sprite" variants="Puck, Paddle" xmi:id="cf6de5ed-6636-428b-889c-8a85e509f11c"/>
+</xmi:XMI>
